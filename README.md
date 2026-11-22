@@ -17,7 +17,7 @@ bash scripts/reproducir_todos_los_experimentos.sh runs/revisor_01
 
 ---
 
-# ENTREGA — Parte B: UrbanGroundFloor (cierre 2026-11-21)
+# ENTREGA — Parte B: UrbanGround
 
 **Entregable central:** [`nota_tecnica.pdf`](nota_tecnica.pdf) (**4 páginas; incluye el experimento de ROI automática como eje principal**) y su [fuente LaTeX](nota_tecnica.tex). Responde directamente por qué se formularon las clases y descripciones, qué señales del comercio en CDMX se incorporaron o descartaron y qué reveló cambiar los prompts. Incluye el diagnóstico de F01–F13. [`nota_tecnica.md`](nota_tecnica.md) se conserva como **versión ampliada de apoyo** con mayor detalle experimental.
 
