@@ -1,0 +1,14 @@
+# Paths are interpreted relative to the project root (parent of configs/).
+model_id: google/siglip2-base-patch16-224
+model_revision: null  # optional immutable HF commit ID for final reproducibility
+images_dir: data/images
+annotations: data/annotations.csv
+rois: data/rois.csv
+prompts:
+  generic: configs/prompts_generic.json
+  contextual: configs/prompts_contextual.json
+regions: [full, roi]
+seed: 42
+blur_radius: 24.0
+strict_expected_images: true
+expected_image_size: [640, 640]

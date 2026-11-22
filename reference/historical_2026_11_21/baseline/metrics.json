@@ -1,0 +1,207 @@
+{
+  "summary": [
+    {
+      "region": "full",
+      "prompt_bank": "contextual",
+      "n": 13,
+      "correct": 1,
+      "accuracy": 0.07692307692307693,
+      "macro_f1": 0.05128205128205129,
+      "recall_A": 0.0,
+      "recall_I": 0.0,
+      "recall_N": 1.0
+    },
+    {
+      "region": "full",
+      "prompt_bank": "generic",
+      "n": 13,
+      "correct": 2,
+      "accuracy": 0.15384615384615385,
+      "macro_f1": 0.1346153846153846,
+      "recall_A": 0.14285714285714285,
+      "recall_I": 0.0,
+      "recall_N": 1.0
+    },
+    {
+      "region": "roi",
+      "prompt_bank": "contextual",
+      "n": 13,
+      "correct": 8,
+      "accuracy": 0.6153846153846154,
+      "macro_f1": 0.6273504273504273,
+      "recall_A": 0.42857142857142855,
+      "recall_I": 0.8,
+      "recall_N": 1.0
+    },
+    {
+      "region": "roi",
+      "prompt_bank": "generic",
+      "n": 13,
+      "correct": 10,
+      "accuracy": 0.7692307692307693,
+      "macro_f1": 0.7043650793650794,
+      "recall_A": 1.0,
+      "recall_I": 0.4,
+      "recall_N": 1.0
+    }
+  ],
+  "detailed": {
+    "full|contextual": {
+      "confusion": {
+        "A": {
+          "A": 0,
+          "I": 1,
+          "N": 6
+        },
+        "I": {
+          "A": 0,
+          "I": 0,
+          "N": 5
+        },
+        "N": {
+          "A": 0,
+          "I": 0,
+          "N": 1
+        }
+      },
+      "per_class": {
+        "A": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "I": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5
+        },
+        "N": {
+          "precision": 0.08333333333333333,
+          "recall": 1.0,
+          "f1": 0.15384615384615385,
+          "support": 1
+        }
+      }
+    },
+    "full|generic": {
+      "confusion": {
+        "A": {
+          "A": 1,
+          "I": 0,
+          "N": 6
+        },
+        "I": {
+          "A": 0,
+          "I": 0,
+          "N": 5
+        },
+        "N": {
+          "A": 0,
+          "I": 0,
+          "N": 1
+        }
+      },
+      "per_class": {
+        "A": {
+          "precision": 1.0,
+          "recall": 0.14285714285714285,
+          "f1": 0.25,
+          "support": 7
+        },
+        "I": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5
+        },
+        "N": {
+          "precision": 0.08333333333333333,
+          "recall": 1.0,
+          "f1": 0.15384615384615385,
+          "support": 1
+        }
+      }
+    },
+    "roi|contextual": {
+      "confusion": {
+        "A": {
+          "A": 3,
+          "I": 4,
+          "N": 0
+        },
+        "I": {
+          "A": 0,
+          "I": 4,
+          "N": 1
+        },
+        "N": {
+          "A": 0,
+          "I": 0,
+          "N": 1
+        }
+      },
+      "per_class": {
+        "A": {
+          "precision": 1.0,
+          "recall": 0.42857142857142855,
+          "f1": 0.6,
+          "support": 7
+        },
+        "I": {
+          "precision": 0.5,
+          "recall": 0.8,
+          "f1": 0.6153846153846154,
+          "support": 5
+        },
+        "N": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 1
+        }
+      }
+    },
+    "roi|generic": {
+      "confusion": {
+        "A": {
+          "A": 7,
+          "I": 0,
+          "N": 0
+        },
+        "I": {
+          "A": 2,
+          "I": 2,
+          "N": 1
+        },
+        "N": {
+          "A": 0,
+          "I": 0,
+          "N": 1
+        }
+      },
+      "per_class": {
+        "A": {
+          "precision": 0.7777777777777778,
+          "recall": 1.0,
+          "f1": 0.8750000000000001,
+          "support": 7
+        },
+        "I": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714285714285715,
+          "support": 5
+        },
+        "N": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 1
+        }
+      }
+    }
+  },
+  "note": "Development set, 13 images; F02/F13 may be the same establishment. No generalization claim."
+}

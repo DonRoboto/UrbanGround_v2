@@ -1,0 +1,11 @@
+{
+  "images": 13,
+  "method_requested": "opencv",
+  "method_counts": {
+    "opencv": 13
+  },
+  "manual_review_count": 9,
+  "mean_iou_vs_manual": 0.2847106923076923,
+  "median_iou_vs_manual": 0.271265,
+  "note": "IoU compares ROIs only; it is not commercial activity detection accuracy."
+}

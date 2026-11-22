@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+*.log
+runs/
+results/
+data/images/*
+!data/images/.gitkeep
+!data/images/README.md
+data/synthetic_images/
+.env
+.DS_Store

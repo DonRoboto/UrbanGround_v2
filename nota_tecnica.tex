@@ -1,0 +1,235 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[spanish,es-noquoting]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,left=1.75cm,right=1.75cm,top=1.55cm,bottom=1.55cm]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,array}
+\usepackage[table]{xcolor}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{hidelinks,pdfauthor={UrbanGroundFloor},pdftitle={UrbanGroundFloor - Nota tecnica Parte B}}
+\definecolor{navy}{HTML}{17334B}
+\definecolor{teal}{HTML}{087E82}
+\definecolor{light}{HTML}{ECF3F5}
+\definecolor{muted}{HTML}{4B5965}
+\definecolor{grid}{HTML}{D5DEE4}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2.25pt}
+\renewcommand{\arraystretch}{1.07}
+\setlist[itemize]{topsep=2pt,itemsep=1pt,leftmargin=1.3em}
+\titleformat{\section}{\large\bfseries\color{navy}}{\thesection.}{0.45em}{}
+\titleformat{\subsection}{\normalsize\bfseries\color{teal}}{\thesubsection}{0.45em}{}
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\titlespacing*{\subsection}{0pt}{5pt}{2pt}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{muted}UrbanGroundFloor | Parte B | 21-11-2026}
+\fancyfoot[R]{\footnotesize\color{muted}\thepage}
+\setlength{\footskip}{14pt}
+\linespread{0.985}
+\newcommand{\tagA}{\textbf{A}}
+\newcommand{\tagI}{\textbf{I}}
+\newcommand{\tagN}{\textbf{N}}
+\newcommand{\fcase}[1]{\textbf{F#1}}
+\begin{document}
+{\color{navy}\LARGE\bfseries UrbanGroundFloor}\hfill{\color{teal}\small NOTA TÉCNICA · PARTE B}\\[-1pt]
+{\large\bfseries Localización del frente y actividad comercial mediante SigLIP 2}\\[3pt]
+{\small\color{muted}13 capturas de Google Street View, Ciudad de México · Clasificación \emph{zero-shot} · Documento de cierre}
+\vspace{3pt}\hrule\vspace{7pt}
+
+\colorbox{light}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\textbf{Resultado central.} Se estudiaron \textbf{dos decisiones acopladas}: qué frente de planta baja analizar y qué evidencia visual permite declarar actividad comercial. Con ROI manual y prompts genéricos, SigLIP 2 coincide en \textbf{10/13} casos; al automatizar la ROI, OWLv2 logra \textbf{9/13} y OpenCV \textbf{7/13}. Sobre la misma ROI manual, cambiar los prompts a textos contextuales corrige dos errores pero introduce cuatro. Por tanto, \textbf{localización, formulación textual y agregación} son fuentes distintas de variación; estas 13 imágenes no prueban generalización ni un sesgo regional del preentrenamiento.}}
+
+
+\vspace{4pt}
+{\footnotesize\textbf{Guía de experimentos.} \textbf{E0:} encuadre y prompts (referencia); \textbf{E1:} agregación de puntuaciones; \textbf{E2:} sensibilidad espacial (ocultamiento/desenfoque); \textbf{E3:} presencia y operación en dos etapas; \textbf{E4:} refinamiento de prompts de operación; \textbf{E5:} ROI automática mediante OpenCV y OWLv2.}\par
+\vspace{2pt}
+
+\section{¿Por qué estas categorías y estas descripciones?}
+
+\textbf{Problema operacional.} La pregunta es si la \emph{planta baja del frente objetivo} muestra evidencia de actividad comercial activa. Una respuesta binaria «comercio/no comercio» mezclaría tres situaciones visualmente distintas: un local preparado para atender, un negocio reconocible cuyo funcionamiento no puede establecerse y un frente sin señales comerciales. La fotografía es estática y no permite inferir horarios, permisos ni una transacción que no aparece. Por ello se definieron tres \textbf{etiquetas de observabilidad}:
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}p{1.25cm}Y Y@{}}
+\toprule
+\textbf{Clase} & \textbf{Regla para anotar el frente} & \textbf{Evidencia típica}\\
+\midrule
+\tagA\ — activa & Comercio abierto o preparado para vender/prestar un servicio; no exige ver clientes. & Acceso abierto, mostrador o mercancía accesible, puesto instalado, mesas preparadas, herramientas listas.\\
+\tagI\ — indeterminada & Hay indicios de establecimiento, pero la operación no es verificable en esa captura. & Rótulo con cortina baja, acceso cubierto, ventanilla sin atención comprobable. No significa cierre permanente.\\
+\tagN\ — sin evidencia & En el frente específico no hay señales visuales suficientes de establecimiento comercial. & Entrada doméstica o cochera privada sin indicios de venta. No prueba ausencia de comercio oculto.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{De las reglas a los \emph{prompts}.} Construimos deliberadamente \textbf{dos bancos de cinco descripciones por clase} (15 por banco). El banco \textbf{genérico} formula las clases de manera amplia: p.\,ej., «Fotografía de una tienda de barrio abierta y preparada para vender» (A), «Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido» (I) y «Fotografía de una vivienda sin negocio visible en el frente principal» (N). El banco \textbf{contextual} prueba hipótesis visuales propias de las fotografías estudiadas: «Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender» (A); «Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada» (I); y «El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios» (N). Todos los textos se almacenan en \path{configs/prompts_generic.json} y \path{configs/prompts_contextual.json}.
+
+\textbf{Rasgos incorporados.} Se representaron tiendas de barrio, ventas desde viviendas, puestos en banqueta, fondas con mesas preparadas, talleres de servicios, mercancías accesibles, cortinas metálicas, letreros informales y accesos parcialmente cubiertos. Se mantuvo como unidad el \emph{frente objetivo}, aunque existan viviendas en pisos superiores o comercios vecinos en la misma captura. Este diseño evita imponer la apariencia de una tienda formal como única expresión de comercio.
+
+\textbf{Supuestos descartados.} No exigimos vitrinas modernas, caja registradora, señalética formal, compradores, empleados visibles ni una venta captada por la cámara para etiquetar A. Tampoco interpretamos una cortina cerrada como ausencia de negocio (N), ni la vivienda superior como ausencia de actividad en planta baja. No se infiere apertura \emph{actual} a partir de una captura histórica. \textbf{Advertencia de diseño:} algunas frases originales del banco genérico hablan de «funcionando en este momento» y ciertas frases contextualizadas de I mencionan ausencia de clientes; son expresiones más fuertes que lo observable y constituyen posibles fuentes de ambigüedad que el experimento permite examinar, no requisitos adoptados por el protocolo humano.
+
+\textbf{Protocolo humano.} Para cada fotografía se delimita el frente objetivo, se registra A/I/N y se justifica con un rasgo visible. En uso mixto se evalúa \emph{solo la planta baja}. Cuando hay varios inmuebles, no se transfieren indicios de un vecino al frente objetivo (\fcase{11}: fachada residencial central). Si se reconoce un negocio pero no se puede comprobar atención, corresponde I; si no hay indicios de establecimiento en ese frente, N. Se anotan oclusiones y duplicados aparentes (\fcase{02} y \fcase{13} parecen mostrar un mismo local). Las etiquetas se confirmaron mediante revisión \emph{iterativa}, no mediante una anotación ciega independiente: \textbf{7 A, 5 I y 1 N}. El detalle por imagen está en \path{anotaciones.csv}.
+
+\newpage
+\section{E0: referencia experimental y efecto de los prompts}
+
+Se usó \path{google/siglip2-base-patch16-224} con los pesos congelados. Para cada imagen se evaluaron la \textbf{captura completa} y una \textbf{ROI manual} del frente objetivo; en cada una se aplicaron ambos bancos. La decisión maximiza el promedio de los cinco logits de compatibilidad de cada clase:
+\begin{equation}
+S_c(x)=\frac{1}{5}\sum_{j=1}^{5}\ell(x,t_{c,j}), \qquad \widehat y(x)=\arg\max_{c\in\{A,I,N\}} S_c(x).
+\end{equation}
+Se conservaron \textbf{52 decisiones y 780 logits}; estas puntuaciones no son probabilidades calibradas de actividad. Las ROI y descripciones se desarrollaron exploratoriamente sobre este mismo conjunto.
+
+\begin{center}
+\small
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+\textbf{Entrada} & \textbf{Banco} & \textbf{Aciertos} & \textbf{Accuracy} & \textbf{Macro-F1} & \textbf{Recall A} & \textbf{Recall I} \\
+\midrule
+Completa & Genérico & 2/13 & 0.154 & 0.135 & 1/7 & 0/5\\
+Completa & Contextual & 1/13 & 0.077 & 0.051 & 0/7 & 0/5\\
+\rowcolor{light} \textbf{ROI manual} & \textbf{Genérico} & \textbf{10/13} & \textbf{0.769} & \textbf{0.704} & \textbf{7/7} & \textbf{2/5}\\
+ROI manual & Contextual & 8/13 & 0.615 & 0.627 & 3/7 & 4/5\\
+\bottomrule
+\end{tabular}
+\end{center}
+\emph{Nota:} N tiene un solo ejemplo, clasificado correctamente en las cuatro condiciones; por eso su recall 1/1 no demuestra desempeño robusto en fachadas no comerciales.
+
+\textbf{Efecto del encuadre.} Con prompts genéricos, pasar de imagen completa a ROI eleva las coincidencias de \textbf{2/13 a 10/13}. La vista completa favorece N en 12 de 13 fotografías, incluso con señales de comercio en el frente. El recorte aumenta la relevancia espacial de esas señales; no obstante, también aumenta su \emph{tamaño relativo} al redimensionar la entrada, de modo que el efecto observado no aísla causalmente la eliminación de contexto.
+
+\textbf{Efecto de cambiar exclusivamente las descripciones.} Con \emph{las mismas ROI, el mismo checkpoint y la misma media de cinco logits}, se obtuvieron exactamente seis cambios:
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}p{0.8cm}p{1.0cm}p{1.5cm}Y@{}}
+\toprule
+\textbf{Foto} & \textbf{Ref.} & \textbf{Cambio} & \textbf{Interpretación del cambio (ROI genérica $\to$ contextual)}\\
+\midrule
+\fcase{05} & I & A $\to$ I & \textbf{Corrección}: cortina cerrada y rótulos; el texto distingue establecimiento de operación verificable.\\
+\fcase{09} & I & A $\to$ I & \textbf{Corrección}: minisúper anunciado y cortina cerrada; deja de extrapolar actividad.\\
+\fcase{03} & A & A $\to$ I & \textbf{Regresión}: pequeño local con exhibidores; la media textual deja de favorecer A.\\
+\fcase{06} & A & A $\to$ I & \textbf{Regresión}: tienda de esquina abierta; subtipos no aplicables pueden reducir la media A.\\
+\fcase{08} & A & A $\to$ I & \textbf{Regresión}: mesas y acceso visibles; un buen prompt de A queda diluido en el promedio.\\
+\fcase{12} & A & A $\to$ I & \textbf{Regresión}: cerrajería abierta; textos sobre fonda o puesto penalizan el promedio A.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+El banco contextual \textbf{corrige dos errores e introduce cuatro}; las otras siete decisiones permanecen iguales. Aumenta el \emph{recall} de I de 2/5 a 4/5, pero reduce el de A de 7/7 a 3/7. Por consiguiente, \textbf{añadir rasgos supuestamente más locales no mejoró la clasificación global}: la especificidad puede ayudar a describir incertidumbre, pero una media entre subtipos heterogéneos puede diluir el texto que sí representa al comercio activo.
+
+
+\section{E5: localización automática de la planta baja}
+
+\textbf{Pregunta experimental.} El experimento de referencia (E0) mostró que la ROI manual mejora la clasificación con prompts genéricos de 2/13 (imagen completa) a 10/13. Sin embargo, exigir una delimitación manual por fotografía impide automatizar el análisis a escala. E5 prueba si la \emph{ROI propuesta automáticamente} conserva parte de esa mejora y permite distinguir \textbf{fallos de localización} de \textbf{fallos de interpretación comercial}. No se cambia el modelo de clasificación ni se entrena con etiquetas de estas imágenes.
+
+\textbf{Tres estrategias bajo el mismo protocolo.} Para las 13 capturas de 640$\times$640 píxeles, se compararon: (i) \textbf{ROI manual}, delimitada previamente como referencia exploratoria del frente objetivo; (ii) \textbf{OpenCV}, que suaviza la imagen, calcula bordes Canny y gradientes Sobel, localiza una franja plausible de planta baja y busca ventanas horizontales con estructura visual y una preferencia espacial fija por el frente objetivo; y (iii) \textbf{OWLv2} (\texttt{google/owlv2-base-patch16-ensemble}), detector \emph{zero-shot} guiado por consultas sobre accesos comerciales, pequeños establecimientos, talleres, puestos y cortinas metálicas. Las detecciones de OWLv2 se filtran por tamaño y posición, se amplían para incluir el frente y, si no hay candidato adecuado, se utiliza OpenCV como respaldo. Ambas estrategias generan una ROI incluso cuando la etiqueta es N; \textbf{proponer un recorte no significa detectar un negocio activo}.
+
+Las ROI manuales \textbf{no intervienen en la selección automática}: se utilizan después para medir superposición espacial. Se conservan por separado \texttt{rois\_auto.csv}, diagnósticos, imágenes de revisión y manifiestos. Las tres colecciones se pasan a \textbf{SigLIP 2 congelado} con los \textbf{mismos bancos de cinco prompts por clase}, la misma normalización de imagen y el mismo promedio de logits. Así, dentro de cada banco, la variable de comparación es el \emph{método de recorte} (que modifica también la escala aparente del frente).
+
+\textbf{Evaluación de localización.} Se usa la intersección sobre unión de la ROI automática $R_a$ con la manual $R_m$, considerada \emph{referencia operacional}, no verdad geométrica exhaustiva:
+\begin{equation*}
+\operatorname{IoU}(R_a,R_m)=\frac{|R_a\cap R_m|}{|R_a\cup R_m|}.
+\end{equation*}
+\begin{center}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Localizador} & \textbf{IoU media} & \textbf{IoU mediana} & \textbf{IoU $\geq$ 0.50} & \textbf{IoU = 0}\\
+\midrule
+OpenCV & 0.285 & 0.271 & 2/13 & 1/13\\
+\rowcolor{light} OWLv2 & \textbf{0.360} & \textbf{0.426} & \textbf{5/13} & 2/13\\
+\bottomrule
+\end{tabular}
+\end{center}
+OWLv2 obtiene una IoU superior en 9/13 fotografías, aunque falla completamente en F05 y F12. En los diagnósticos, 9 propuestas OpenCV y 6 OWLv2 aparecen con marca \texttt{manual\_review}; una detección sin esa marca tampoco equivale a validación humana.
+
+\textbf{Efecto sobre la clasificación.} El clasificador recibe solo el recorte correspondiente; se reportan resultados separados para ambos bancos, sin seleccionar un método diferente para cada fotografía:
+\begin{center}
+\small
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+\textbf{ROI} & \textbf{Banco} & \textbf{Aciertos} & \textbf{Accuracy} & \textbf{Macro-F1} & \textbf{Recall A} & \textbf{Recall I}\\
+\midrule
+\rowcolor{light} Manual & Genérico & \textbf{10/13} & \textbf{0.769} & \textbf{0.704} & 7/7 & 2/5\\
+OpenCV & Genérico & 7/13 & 0.538 & 0.378 & 6/7 & 1/5\\
+OWLv2 & Genérico & 9/13 & 0.692 & 0.610 & 6/7 & 2/5\\
+\midrule
+Manual & Contextual & 8/13 & 0.615 & 0.627 & 3/7 & 4/5\\
+OpenCV & Contextual & 8/13 & 0.615 & 0.556 & 5/7 & 2/5\\
+OWLv2 & Contextual & 7/13 & 0.538 & 0.515 & 3/7 & 3/5\\
+\bottomrule
+\end{tabular}
+\end{center}
+Con textos genéricos, OWLv2 conserva 9 de las 10 clasificaciones acertadas con ROI manual, mientras OpenCV conserva 7. \textbf{La mayor IoU media coincide aquí con mejor clasificación}, pero no establece causalidad ni implica que una alta IoU garantice la etiqueta correcta. Tampoco los prompts contextualizados mejoran consistentemente al usar recortes automáticos.
+
+\textbf{Diagnóstico pareado de errores críticos (prompts genéricos).} Se muestran etiqueta humana (H), predicciones con ROI manual, OpenCV y OWLv2, y calidad espacial de cada método:
+\begin{center}
+\footnotesize
+\begin{tabularx}{\linewidth}{@{}p{0.7cm}p{0.45cm}p{1.0cm}p{1.0cm}p{1.0cm}p{0.85cm}p{0.85cm}Y@{}}
+\toprule
+\textbf{Foto}&\textbf{H}&\textbf{Man.}&\textbf{CV}&\textbf{OWL}&\textbf{IoU CV}&\textbf{IoU OWL}&\textbf{Interpretación}\\
+\midrule
+\fcase{05}&I&A&N&N&0.264&0.000&OWLv2 no recupera el frente; ambos automáticos predicen N.\\
+\fcase{06}&A&A&N&A&0.000&0.193&OpenCV omite el frente relevante; OWLv2 acierta pese a baja superposición.\\
+\fcase{07}&I&N&N&N&0.533&0.324&Persiste un error semántico aun con recorte razonable.\\
+\fcase{09}&I&A&A&A&0.190&0.061&El rótulo comercial sigue confundiéndose con operación verificable.\\
+\fcase{11}&N&N&A&N&0.271&0.426&OpenCV introduce falso positivo en un frente residencial.\\
+\fcase{12}&A&A&A&N&0.595&0.000&OWLv2 selecciona una región ajena a la cerrajería objetivo.\\
+\fcase{13}&I&I&N&I&0.140&0.571&OWLv2 recupera el frente mejor que OpenCV.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{Interpretación y decisión de diseño.} El experimento de ROI automática (E5) muestra que los recortes pueden fallar \emph{antes} de la clasificación (F05/F12) o entregar una ROI pertinente que SigLIP 2 interpreta mal (F07/F09). OWLv2 introduce además una hipótesis comercial en la etapa de búsqueda: expresiones como \emph{shop entrance} favorecen ciertos marcadores y pueden seleccionar un negocio vecino. Se propone \textbf{localizar primero el frente solicitado, verificar la pertinencia de la ROI y, después, separar presencia comercial de evidencia de operación}. La verificación semiautomática es una propuesta de uso, \textbf{no} una corrección aplicada a los resultados anteriores.
+
+\clearpage
+\section{¿Qué información parece utilizar el modelo y por qué falla?}
+
+SigLIP 2 estima compatibilidad relativa entre imágenes y textos, pero los logits no explican causalmente qué píxeles se analizaron. La comparación de referencia (E0) sugiere tres mecanismos: \textbf{(i)} competencia del contexto y escala del frente; \textbf{(ii)} confusión entre presencia comercial y operación observable; y \textbf{(iii)} promediado de subtipos textuales heterogéneos.
+
+\vspace{1pt}{\footnotesize\color{muted}\textbf{Clave:} H = anotación humana; CG = completa con banco genérico; RG = ROI con banco genérico; RC = ROI con banco contextual.}
+\begin{center}
+\footnotesize
+\begin{tabularx}{\linewidth}{@{}p{0.7cm}p{0.45cm}p{0.53cm}p{0.53cm}p{0.53cm}Y@{}}
+\toprule
+\textbf{Foto} & \textbf{H} & \textbf{CG} & \textbf{RG} & \textbf{RC} & \textbf{Evidencia y mecanismo compatible con los desacuerdos}\\
+\midrule
+\fcase{01} & A & A & A & A & Vitrina y mercancía. Solo la completa contextual cambia a I: el texto altera la competencia entre clases.\\
+\fcase{02} & I & N & I & I & Cafetería/panadería con acceso cubierto. El recorte recupera indicios de local; operación no verificable.\\
+\fcase{03} & A & N & A & I & Comercio pequeño lejano: el encuadre ayuda; la media contextual favorece incertidumbre.\\
+\fcase{04} & A & N & A & A & Toldo, entrada abierta y exhibidores: el frente gana peso al recortar.\\
+\fcase{05} & I & N & A & I & Cortina baja y rótulos: presencia comercial confundida con actividad en el banco genérico.\\
+\fcase{06} & A & N & A & I & Tienda de esquina aparentemente abierta: I supera A al agregar textos contextualizados.\\
+\fcase{07} & I & N & N & N & Menú y ventanilla: los indicios de negocio discreto no bastan para vencer a N.\\
+\fcase{08} & A & N & A & I & Restaurante con mesas: un texto de A coincide, pero la media de clase favorece I.\\
+\fcase{09} & I & N & A & I & Rótulo de minisúper y cortina cerrada: reconocerse como tienda no verifica atención.\\
+\fcase{10} & A & N & A & A & Puesto con sombrilla y mercancía: comercio informal poco visible en imagen completa.\\
+\fcase{11} & N & N & N & N & Frente residencial central; negocios en extremos corresponden a otros inmuebles.\\
+\fcase{12} & A & N & A & I & Cerrajería abierta: los textos de restaurante/puesto degradan la media de actividad.\\
+\fcase{13} & I & N & I & I & Segunda perspectiva probable de F02; ROI recupera local, no su estado operativo.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{Tres errores residuales de ROI + genéricos.} En \fcase{05}, $S_A=-0.450>S_I=-0.727$: la similitud con «negocio» no implica operación. En \fcase{07}, $S_N=-0.722>S_A=-1.861>S_I=-2.891$: una cocina económica con menú no obtiene compatibilidad suficiente con las descripciones comerciales. En \fcase{09}, $S_A=-1.177>S_I=-1.513$: el rótulo facilita reconocer comercio, pero confunde su actividad verificable. Los bancos contextualizados corrigen F05 y F09, no F07.
+
+\textbf{Prueba directa del efecto de agregación.} En \fcase{08}, con ROI y textos contextualizados, el mejor prompt individual de A tiene logit \textbf{+1.130} (entrada abierta con productos/mostrador), superior al mejor I (\textbf{+0.397}). Sin embargo, sus medias son $S_A=-2.645$ y $S_I=-2.111$, por lo que se selecciona I. En \fcase{12}, el texto A sobre «restaurante o fonda» obtiene \textbf{--8.005} para una \emph{cerrajería} y reduce el promedio de A. No es adecuado concluir que la red no detecta ninguna señal de actividad: \textbf{la decisión depende de qué textos representan cada clase y de cómo se combinan}.
+
+\section{Ajuste propuesto, comprobaciones adicionales y alcance}
+
+A partir de los experimentos descritos, la adaptación concreta consiste en \textbf{localizar el frente} $\to$ \textbf{detectar presencia de establecimiento} $\to$ \textbf{valorar evidencia de operación}, conservando I como estado legítimo de incertidumbre. El módulo automático propone el recorte, pero no determina A/I/N. La clasificación jerárquica (E3) y el refinamiento de operación (E4) exploran la distinción entre presencia y operación; se reportan como diagnósticos, no como mejoras generales sobre la condición de referencia.
+
+\textbf{Estudios complementarios.} La agregación de prompts (E1) probó media, mediana, Top-2, máximo y log-mean-exp: la decisión depende también de cómo se agregan los prompts, sin validar una regla elegida \emph{post hoc}. La clasificación jerárquica (E3) obtuvo 9/13 y macro-F1 0.778 en ROI; el refinamiento textual de operación (E4) obtuvo 9/13 y macro-F1 0.771. El refinamiento E4 corrige F07 respecto del método E3, pero empeora F08. E2 exploró ocultamientos y desenfoques espaciales sin atribución causal. Ambos procedimientos diagnostican presencia frente a operación, sin superar los aciertos de ROI manual genérica.
+
+\textbf{Limitaciones.} Las 13 capturas son de desarrollo; los prompts, las ROI manuales y las decisiones de diseño automático se formularon durante su exploración. Solo hay una etiqueta N y F02/F13 podrían representar el mismo local. La anotación fue iterativa, no ciega; la ROI manual no es verdad geométrica exacta. La mejora respecto a imagen completa combina selección espacial y aumento de escala del recorte. La comparación de ROI automática (E5) es descriptiva, no una prueba de superioridad estadística ni de escalabilidad validada. Tampoco se ha demostrado un sesgo regional del preentrenamiento ni una atribución causal de píxeles; se requiere un conjunto externo para estudiar generalización.
+
+\textbf{Reproducibilidad.} El repositorio conserva prompts y checkpoint en \path{configs/}, anotaciones y ROI manuales en \path{data/}, y logits/manifiestos en \path{reference/} y \path{runs/}. La localización automática (E5) añade \path{rois_auto.csv}, \path{roi_diagnostics.csv}, montajes y \path{paired_predictions.csv}. La localización se ejecuta con \texttt{python -m urban\_vlm auto-rois}; la clasificación pareada, con \path{scripts/run_e5_siglip2.py}. El README contiene los argumentos; el uso público de fotografías originales requiere autorización.
+
+\textbf{Conclusión.} En estas 13 fotografías, localización e interpretación comercial producen errores distintos. OWLv2 conserva 9/13 aciertos frente a 10/13 con ROI manual, pero falla en ciertos frentes; los prompts contextuales corrigen dos errores e introducen cuatro. Se propone integrar \textbf{ROI automática revisable}, \textbf{clase I explícita} y \textbf{clasificación en dos etapas}; su utilidad fuera de este conjunto aún requiere evaluación.
+\end{document}

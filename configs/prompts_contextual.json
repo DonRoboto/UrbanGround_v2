@@ -1,0 +1,23 @@
+{
+  "A": [
+    "En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.",
+    "Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",
+    "En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.",
+    "Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",
+    "Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista."
+  ],
+  "I": [
+    "Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",
+    "Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.",
+    "Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",
+    "En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",
+    "Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes."
+  ],
+  "N": [
+    "La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.",
+    "El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.",
+    "En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",
+    "La planta baja tiene una cochera particular y no presenta señales de venta al público.",
+    "La fachada observada es de uso residencial y no contiene un local comercial identificable."
+  ]
+}

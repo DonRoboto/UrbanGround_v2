@@ -1,0 +1,14 @@
+file,label,evidence,target_front,annotation_provenance,duplicate_group
+fachada_01.jpg,A,Local abierto con vitrina y productos; anuncio de comida.,identified target ground floor,prior confirmed iterative review,
+fachada_02.jpg,I,Cafetería/panadería anunciada; acceso cubierto; operación no verificable.,identified target ground floor,prior confirmed iterative review,cafe_02_13
+fachada_03.jpg,A,"Pequeño negocio con anuncios y exhibidores, a distancia.",identified target ground floor,prior confirmed iterative review,
+fachada_04.jpg,A,"Toldo azul, entrada abierta y exhibidores junto al frente.",identified target ground floor,prior confirmed iterative review,
+fachada_05.jpg,I,"Rótulos de estética/tienda, cortina metálica principal cerrada.",identified target ground floor,prior confirmed iterative review,
+fachada_06.jpg,A,Tienda de esquina con acceso aparentemente abierto y objetos visibles.,identified target ground floor,prior confirmed iterative review,
+fachada_07.jpg,I,Cocina económica con menú y ventanilla; atención no verificable.,identified target ground floor,prior confirmed iterative review,
+fachada_08.jpg,A,"Restaurante con mesas, sillas y acceso visible.",identified target ground floor,prior confirmed iterative review,
+fachada_09.jpg,I,"Minisúper anunciado, cortina principal metálica cerrada.",identified target ground floor,prior confirmed iterative review,
+fachada_10.jpg,A,Puesto con sombrilla roja y productos exhibidos.,identified target ground floor,prior confirmed iterative review,
+fachada_11.jpg,N,Frente objetivo central habitacional; comercios parciales en extremos ajenos.,central frontage,prior confirmed iterative review,
+fachada_12.jpg,A,Cerrajería abierta con letrero y artículos/herramientas visibles.,identified target ground floor,prior confirmed iterative review,
+fachada_13.jpg,I,Segunda vista de la cafetería F02; operación no verificable.,identified target ground floor,prior confirmed iterative review,cafe_02_13

@@ -1,0 +1,14 @@
+file,human,evidence,baseline_full_generic,baseline_roi_generic,baseline_full_contextual,baseline_roi_contextual,e3_full,e3_roi,e4_full,e4_roi,e3_margin_presence_roi,e3_margin_operation_roi,e4_margin_operation_roi,e3_to_e4_change_roi
+fachada_01.jpg,A,Local abierto con vitrina y productos; anuncio de comida.,A,A,I,A,I,A,I,A,2.3876935958862306,0.6032678604125978,0.535501098632813,unchanged_correct
+fachada_02.jpg,I,Cafetería/panadería anunciada; acceso cubierto; operación no verificable.,N,I,N,I,I,I,I,I,3.2267322540283194,-2.3179933547973635,-2.377198219299316,unchanged_correct
+fachada_03.jpg,A,"Pequeño negocio con anuncios y exhibidores, a distancia.",N,A,N,I,I,I,I,I,2.327371978759766,-1.5601875305175779,-1.2104854583740234,unchanged_wrong
+fachada_04.jpg,A,"Toldo azul, entrada abierta y exhibidores junto al frente.",N,A,N,A,N,A,N,A,2.0938861846923826,0.8722120285034185,0.685959053039551,unchanged_correct
+fachada_05.jpg,I,"Rótulos de estética/tienda, cortina metálica principal cerrada.",N,A,N,I,N,I,N,I,0.9936443328857423,-1.813481903076172,-1.8092231750488281,unchanged_correct
+fachada_06.jpg,A,Tienda de esquina con acceso aparentemente abierto y objetos visibles.,N,A,N,I,I,I,I,I,1.1217390060424801,-1.4702018737792972,-0.5421329498291012,unchanged_wrong
+fachada_07.jpg,I,Cocina económica con menú y ventanilla; atención no verificable.,N,N,N,N,I,A,I,I,0.4209943771362301,0.38367786407470694,-0.037633514404296964,corrected
+fachada_08.jpg,A,"Restaurante con mesas, sillas y acceso visible.",N,A,N,I,I,A,I,I,2.7512485504150392,0.015760421752929688,-0.3296037673950192,new_error
+fachada_09.jpg,I,"Minisúper anunciado, cortina principal metálica cerrada.",N,A,N,I,I,I,I,I,2.5315048217773435,-1.5494434356689455,-0.8476840972900392,unchanged_correct
+fachada_10.jpg,A,Puesto con sombrilla roja y productos exhibidos.,N,A,N,A,I,A,I,A,3.179989814758301,1.5806097030639648,0.7910161972045899,unchanged_correct
+fachada_11.jpg,N,Frente objetivo central habitacional; comercios parciales en extremos ajenos.,N,N,N,N,N,N,N,N,-0.6646526336669925,-0.9271198272705075,-0.5958566665649414,unchanged_correct
+fachada_12.jpg,A,Cerrajería abierta con letrero y artículos/herramientas visibles.,N,A,N,I,N,I,N,I,1.8808641433715823,-0.38543777465820295,-0.38408546447753905,unchanged_wrong
+fachada_13.jpg,I,Segunda vista de la cafetería F02; operación no verificable.,N,I,N,I,I,I,I,I,2.3377998352050784,-2.270675468444824,-2.294428253173828,unchanged_correct

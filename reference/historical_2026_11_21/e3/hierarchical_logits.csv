@@ -1,0 +1,521 @@
+file,region,stage,hypothesis,prompt_index,prompt_text,logit
+fachada_01.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-2.0975990295410156
+fachada_01.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-3.6682071685791016
+fachada_01.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-2.5948667526245117
+fachada_01.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-0.19340896606445312
+fachada_01.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-3.0205326080322266
+fachada_01.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-7.184538841247559
+fachada_01.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-2.8055849075317383
+fachada_01.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-3.713024139404297
+fachada_01.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-2.0450057983398438
+fachada_01.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-5.097428321838379
+fachada_01.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-2.1811389923095703
+fachada_01.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-6.938691139221191
+fachada_01.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.6960248947143555
+fachada_01.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.616888046264648
+fachada_01.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-1.1909170150756836
+fachada_01.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-1.3540229797363281
+fachada_01.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-3.780569076538086
+fachada_01.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-0.5835456848144531
+fachada_01.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-4.193639755249023
+fachada_01.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.541695594787598
+fachada_01.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-4.755762100219727
+fachada_01.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-3.4193458557128906
+fachada_01.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-4.882309913635254
+fachada_01.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-2.501781463623047
+fachada_01.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-3.845240592956543
+fachada_01.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-9.770248413085938
+fachada_01.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-4.515154838562012
+fachada_01.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-6.509957313537598
+fachada_01.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-3.9716949462890625
+fachada_01.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-6.575852394104004
+fachada_01.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-0.19646644592285156
+fachada_01.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-6.521004676818848
+fachada_01.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-4.720456123352051
+fachada_01.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-6.728673934936523
+fachada_01.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-1.7519207000732422
+fachada_01.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-4.855711936950684
+fachada_01.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-2.25643253326416
+fachada_01.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-3.967304229736328
+fachada_01.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-6.125014305114746
+fachada_01.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-5.730398178100586
+fachada_02.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-0.8767480850219727
+fachada_02.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-5.070079803466797
+fachada_02.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.361053466796875
+fachada_02.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-0.9792613983154297
+fachada_02.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-3.5680551528930664
+fachada_02.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-6.397548675537109
+fachada_02.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-2.801675796508789
+fachada_02.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-2.079339027404785
+fachada_02.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.650834083557129
+fachada_02.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-6.130374908447266
+fachada_02.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.5279626846313477
+fachada_02.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-8.447099685668945
+fachada_02.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-5.156436920166016
+fachada_02.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-8.599616050720215
+fachada_02.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-3.6595592498779297
+fachada_02.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-2.0196237564086914
+fachada_02.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-4.718859672546387
+fachada_02.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-1.3232574462890625
+fachada_02.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-5.121440887451172
+fachada_02.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-3.1902637481689453
+fachada_02.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-6.095024108886719
+fachada_02.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-4.716053009033203
+fachada_02.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-6.486421585083008
+fachada_02.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-3.8483810424804688
+fachada_02.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-4.159039497375488
+fachada_02.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-12.116781234741211
+fachada_02.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-7.466622352600098
+fachada_02.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-5.567610740661621
+fachada_02.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-6.373746871948242
+fachada_02.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-9.913819313049316
+fachada_02.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-4.499697685241699
+fachada_02.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-4.881921768188477
+fachada_02.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-5.7304582595825195
+fachada_02.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-8.604181289672852
+fachada_02.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-7.013065338134766
+fachada_02.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-2.6627931594848633
+fachada_02.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-2.060173988342285
+fachada_02.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-2.8168230056762695
+fachada_02.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-5.870637893676758
+fachada_02.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-5.72892951965332
+fachada_03.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-1.4072999954223633
+fachada_03.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-4.481249809265137
+fachada_03.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.064419746398926
+fachada_03.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-1.2989587783813477
+fachada_03.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-2.9458093643188477
+fachada_03.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-7.930584907531738
+fachada_03.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-1.2891874313354492
+fachada_03.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-1.907139778137207
+fachada_03.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.0301742553710938
+fachada_03.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-4.953768730163574
+fachada_03.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.624934196472168
+fachada_03.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-7.101559638977051
+fachada_03.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-4.379450798034668
+fachada_03.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.18229866027832
+fachada_03.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.081051826477051
+fachada_03.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-0.7714252471923828
+fachada_03.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-5.187760353088379
+fachada_03.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-0.8599977493286133
+fachada_03.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-5.151837348937988
+fachada_03.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-3.8401708602905273
+fachada_03.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-2.4848718643188477
+fachada_03.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,0.4760723114013672
+fachada_03.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-4.231191635131836
+fachada_03.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-1.4027957916259766
+fachada_03.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-0.9571857452392578
+fachada_03.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-9.994169235229492
+fachada_03.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-3.774688720703125
+fachada_03.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-1.0093374252319336
+fachada_03.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",0.16623497009277344
+fachada_03.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-5.624872207641602
+fachada_03.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-2.585367202758789
+fachada_03.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-3.7981014251708984
+fachada_03.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.64957332611084
+fachada_03.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-4.256527900695801
+fachada_03.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.080267906188965
+fachada_03.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-0.8530635833740234
+fachada_03.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-1.8111820220947266
+fachada_03.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",0.627532958984375
+fachada_03.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-3.4533138275146484
+fachada_03.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-3.078873634338379
+fachada_04.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-1.5727300643920898
+fachada_04.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-7.511283874511719
+fachada_04.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-4.619925498962402
+fachada_04.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-2.234067916870117
+fachada_04.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-5.262670516967773
+fachada_04.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-7.398323059082031
+fachada_04.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-2.0460243225097656
+fachada_04.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-2.2713356018066406
+fachada_04.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.946425437927246
+fachada_04.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-5.32222843170166
+fachada_04.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-4.579039573669434
+fachada_04.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-9.488303184509277
+fachada_04.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-5.650143623352051
+fachada_04.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.9622087478637695
+fachada_04.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-3.056262969970703
+fachada_04.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-3.718616485595703
+fachada_04.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-6.172679901123047
+fachada_04.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-3.09860897064209
+fachada_04.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-6.685529708862305
+fachada_04.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-5.012666702270508
+fachada_04.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-4.084857940673828
+fachada_04.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-3.7615842819213867
+fachada_04.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.5154170989990234
+fachada_04.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-3.9770946502685547
+fachada_04.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-5.049800872802734
+fachada_04.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-9.076803207397461
+fachada_04.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-5.906292915344238
+fachada_04.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-5.323497772216797
+fachada_04.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-3.6067428588867188
+fachada_04.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-6.944849014282227
+fachada_04.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-1.5595588684082031
+fachada_04.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-5.166316032409668
+fachada_04.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.2048110961914062
+fachada_04.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.321040153503418
+fachada_04.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.9788570404052734
+fachada_04.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-3.647709846496582
+fachada_04.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-4.436984062194824
+fachada_04.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-3.812582015991211
+fachada_04.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-7.263126373291016
+fachada_04.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-5.431241035461426
+fachada_05.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-1.4197301864624023
+fachada_05.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-5.872751235961914
+fachada_05.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-4.459782600402832
+fachada_05.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-2.9542531967163086
+fachada_05.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-4.6647491455078125
+fachada_05.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-7.575030326843262
+fachada_05.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-1.6466922760009766
+fachada_05.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-2.7971696853637695
+fachada_05.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.0780563354492188
+fachada_05.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-5.599492073059082
+fachada_05.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-4.7733917236328125
+fachada_05.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-7.3690996170043945
+fachada_05.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-5.504988670349121
+fachada_05.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-8.130963325500488
+fachada_05.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-3.68068790435791
+fachada_05.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-2.9968042373657227
+fachada_05.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-5.75727653503418
+fachada_05.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-2.889385223388672
+fachada_05.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-5.054342269897461
+fachada_05.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.563899993896484
+fachada_05.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-2.485004425048828
+fachada_05.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-0.5634956359863281
+fachada_05.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-4.499386787414551
+fachada_05.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-2.0778636932373047
+fachada_05.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-1.912755012512207
+fachada_05.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-5.967769622802734
+fachada_05.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-3.2085132598876953
+fachada_05.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-1.5502147674560547
+fachada_05.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.0393037796020508
+fachada_05.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-4.7409257888793945
+fachada_05.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-1.549591064453125
+fachada_05.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-2.0312938690185547
+fachada_05.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.168916702270508
+fachada_05.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-4.218626976013184
+fachada_05.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.9971237182617188
+fachada_05.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-0.014362335205078125
+fachada_05.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-0.9925546646118164
+fachada_05.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-0.25322723388671875
+fachada_05.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-1.3864765167236328
+fachada_05.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-2.2515220642089844
+fachada_06.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-1.2690610885620117
+fachada_06.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-5.618901252746582
+fachada_06.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.3638811111450195
+fachada_06.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-1.5338096618652344
+fachada_06.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-4.086820602416992
+fachada_06.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-7.426523208618164
+fachada_06.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-1.248021125793457
+fachada_06.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-2.8288726806640625
+fachada_06.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.1385602951049805
+fachada_06.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-5.486736297607422
+fachada_06.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.8897619247436523
+fachada_06.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-7.678071022033691
+fachada_06.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-5.1120758056640625
+fachada_06.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.353213310241699
+fachada_06.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.1043596267700195
+fachada_06.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-2.501532554626465
+fachada_06.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-5.447817802429199
+fachada_06.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-1.7728281021118164
+fachada_06.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-4.394618988037109
+fachada_06.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-3.5121688842773438
+fachada_06.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-5.781459808349609
+fachada_06.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-5.1861066818237305
+fachada_06.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-6.143032073974609
+fachada_06.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-4.101266860961914
+fachada_06.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-5.794866561889648
+fachada_06.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-11.19923210144043
+fachada_06.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-4.362417221069336
+fachada_06.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-5.462043762207031
+fachada_06.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-4.269098281860352
+fachada_06.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-7.322635650634766
+fachada_06.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-5.803356170654297
+fachada_06.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-8.923550605773926
+fachada_06.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-6.531713485717773
+fachada_06.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.000680923461914
+fachada_06.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-4.893218040466309
+fachada_06.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-4.257335662841797
+fachada_06.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-5.755956649780273
+fachada_06.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-4.921178817749023
+fachada_06.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-6.122119903564453
+fachada_06.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.7449188232421875
+fachada_07.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",0.2931938171386719
+fachada_07.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-3.7729969024658203
+fachada_07.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-1.1980400085449219
+fachada_07.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-0.22954940795898438
+fachada_07.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-3.253584861755371
+fachada_07.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-4.771766662597656
+fachada_07.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-1.6259002685546875
+fachada_07.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-1.7412376403808594
+fachada_07.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-0.7162494659423828
+fachada_07.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-4.111841201782227
+fachada_07.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-2.5659914016723633
+fachada_07.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-6.13859748840332
+fachada_07.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-2.723313331604004
+fachada_07.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-6.630511283874512
+fachada_07.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-1.4246244430541992
+fachada_07.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-0.9157676696777344
+fachada_07.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-4.417599678039551
+fachada_07.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-0.7660980224609375
+fachada_07.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-4.703255653381348
+fachada_07.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-2.6599807739257812
+fachada_07.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-1.015913963317871
+fachada_07.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-1.2031068801879883
+fachada_07.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-2.9444198608398438
+fachada_07.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-1.1137495040893555
+fachada_07.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-4.150099754333496
+fachada_07.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-2.3122406005859375
+fachada_07.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-3.6441049575805664
+fachada_07.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-1.9998598098754883
+fachada_07.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.447260856628418
+fachada_07.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-3.128795623779297
+fachada_07.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-1.357492446899414
+fachada_07.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-3.2582578659057617
+fachada_07.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-1.996053695678711
+fachada_07.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-4.339754104614258
+fachada_07.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-3.019961357116699
+fachada_07.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-1.9986944198608398
+fachada_07.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-3.529709815979004
+fachada_07.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-1.3213768005371094
+fachada_07.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-4.59580135345459
+fachada_07.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.444326400756836
+fachada_08.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-3.2343521118164062
+fachada_08.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-7.379212379455566
+fachada_08.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.984495162963867
+fachada_08.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-3.1689834594726562
+fachada_08.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-4.02571964263916
+fachada_08.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-8.964576721191406
+fachada_08.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-3.1564855575561523
+fachada_08.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-4.151937484741211
+fachada_08.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-2.8446483612060547
+fachada_08.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-6.82755184173584
+fachada_08.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.264071464538574
+fachada_08.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-7.655245780944824
+fachada_08.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-4.861340522766113
+fachada_08.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-9.477714538574219
+fachada_08.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.571207046508789
+fachada_08.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-2.6517438888549805
+fachada_08.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-5.841733932495117
+fachada_08.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-2.2376537322998047
+fachada_08.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-7.743110656738281
+fachada_08.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.887773513793945
+fachada_08.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-3.1410531997680664
+fachada_08.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-2.96047306060791
+fachada_08.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-2.586806297302246
+fachada_08.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-2.0407800674438477
+fachada_08.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-1.5790834426879883
+fachada_08.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-9.529011726379395
+fachada_08.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-4.665515899658203
+fachada_08.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-3.806406021118164
+fachada_08.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-2.3015222549438477
+fachada_08.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-5.7619829177856445
+fachada_08.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-0.7308464050292969
+fachada_08.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-4.087395668029785
+fachada_08.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-1.1979312896728516
+fachada_08.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-5.6685895919799805
+fachada_08.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-1.5239381790161133
+fachada_08.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-1.0284128189086914
+fachada_08.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-1.7112932205200195
+fachada_08.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-1.0670995712280273
+fachada_08.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-5.935169219970703
+fachada_08.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-3.5455284118652344
+fachada_09.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-1.2586517333984375
+fachada_09.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-5.195530891418457
+fachada_09.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.6710424423217773
+fachada_09.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-1.6432266235351562
+fachada_09.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-4.419915199279785
+fachada_09.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-7.624477386474609
+fachada_09.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-2.171095848083496
+fachada_09.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-2.3811826705932617
+fachada_09.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-0.8975954055786133
+fachada_09.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-4.963203430175781
+fachada_09.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.559096336364746
+fachada_09.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-6.109463691711426
+fachada_09.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-5.275744438171387
+fachada_09.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.200423240661621
+fachada_09.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.5160436630249023
+fachada_09.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-2.0580320358276367
+fachada_09.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-5.131501197814941
+fachada_09.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-2.08059024810791
+fachada_09.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-4.5277099609375
+fachada_09.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.32557487487793
+fachada_09.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-2.7426862716674805
+fachada_09.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-1.3294849395751953
+fachada_09.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.590892791748047
+fachada_09.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-0.4158039093017578
+fachada_09.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-1.722818374633789
+fachada_09.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-9.493273735046387
+fachada_09.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-2.9484338760375977
+fachada_09.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-3.0637645721435547
+fachada_09.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.0358085632324219
+fachada_09.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-5.917929649353027
+fachada_09.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-2.4379329681396484
+fachada_09.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-3.9673500061035156
+fachada_09.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.721372604370117
+fachada_09.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-5.591716766357422
+fachada_09.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.52945613861084
+fachada_09.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-1.0038557052612305
+fachada_09.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-1.200296401977539
+fachada_09.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-1.3087549209594727
+fachada_09.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-2.9974842071533203
+fachada_09.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-3.990220069885254
+fachada_10.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-0.20067405700683594
+fachada_10.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-3.691115379333496
+fachada_10.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.101984977722168
+fachada_10.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-2.4768333435058594
+fachada_10.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-3.990908622741699
+fachada_10.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-7.835334777832031
+fachada_10.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-2.76804256439209
+fachada_10.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-1.7687196731567383
+fachada_10.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.1686630249023438
+fachada_10.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-5.1877593994140625
+fachada_10.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.337897300720215
+fachada_10.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-6.083596229553223
+fachada_10.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.6983251571655273
+fachada_10.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.602301597595215
+fachada_10.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.6297569274902344
+fachada_10.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-2.629061698913574
+fachada_10.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-6.181055068969727
+fachada_10.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-2.306171417236328
+fachada_10.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-4.880438804626465
+fachada_10.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.133955001831055
+fachada_10.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-1.8601341247558594
+fachada_10.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,1.4308586120605469
+fachada_10.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-1.7806434631347656
+fachada_10.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-2.697031021118164
+fachada_10.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-2.9584083557128906
+fachada_10.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-8.958715438842773
+fachada_10.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-5.332671165466309
+fachada_10.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-2.874880790710449
+fachada_10.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.7463417053222656
+fachada_10.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-4.85269832611084
+fachada_10.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-0.00762176513671875
+fachada_10.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-1.5673294067382812
+fachada_10.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-0.09894180297851562
+fachada_10.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-4.648866653442383
+fachada_10.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-1.4837722778320312
+fachada_10.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-1.5912847518920898
+fachada_10.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-3.835648536682129
+fachada_10.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-2.9269094467163086
+fachada_10.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-3.6037817001342773
+fachada_10.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-3.751955986022949
+fachada_11.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-4.868064880371094
+fachada_11.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-10.653417587280273
+fachada_11.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-7.50624942779541
+fachada_11.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-5.422591209411621
+fachada_11.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-7.852084159851074
+fachada_11.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-9.425552368164062
+fachada_11.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-4.772712707519531
+fachada_11.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-6.467232704162598
+fachada_11.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-4.604933738708496
+fachada_11.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-8.916991233825684
+fachada_11.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-7.447605133056641
+fachada_11.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-11.925893783569336
+fachada_11.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-8.743035316467285
+fachada_11.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-11.638777732849121
+fachada_11.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-5.966361045837402
+fachada_11.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-6.157844543457031
+fachada_11.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-7.7456512451171875
+fachada_11.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-5.2073516845703125
+fachada_11.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-10.285239219665527
+fachada_11.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-7.46572208404541
+fachada_11.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-2.5978498458862305
+fachada_11.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-5.861788749694824
+fachada_11.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-5.631626129150391
+fachada_11.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-2.4311485290527344
+fachada_11.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-6.419568061828613
+fachada_11.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-5.824980735778809
+fachada_11.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-1.977381706237793
+fachada_11.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-3.7501068115234375
+fachada_11.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-1.986699104309082
+fachada_11.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-6.079549789428711
+fachada_11.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.1598567962646484
+fachada_11.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-7.165653228759766
+fachada_11.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-5.934047698974609
+fachada_11.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-8.02788257598877
+fachada_11.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-4.134160041809082
+fachada_11.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-4.1460466384887695
+fachada_11.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-2.9042444229125977
+fachada_11.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-3.746828079223633
+fachada_11.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-7.902819633483887
+fachada_11.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-5.086062431335449
+fachada_12.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",0.13252639770507812
+fachada_12.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-5.69412899017334
+fachada_12.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.4092884063720703
+fachada_12.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-0.9152383804321289
+fachada_12.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-4.369653701782227
+fachada_12.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-4.57913875579834
+fachada_12.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-0.9326457977294922
+fachada_12.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-0.8251543045043945
+fachada_12.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",0.26795005798339844
+fachada_12.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-4.063742637634277
+fachada_12.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.137521743774414
+fachada_12.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-8.722758293151855
+fachada_12.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-4.919034957885742
+fachada_12.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-6.933661460876465
+fachada_12.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.005049705505371
+fachada_12.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-2.6230688095092773
+fachada_12.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-5.08467960357666
+fachada_12.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-0.9474964141845703
+fachada_12.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-5.178613662719727
+fachada_12.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.064308166503906
+fachada_12.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-1.0864505767822266
+fachada_12.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-0.0970001220703125
+fachada_12.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-3.4699888229370117
+fachada_12.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",2.2840633392333984
+fachada_12.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-0.5306625366210938
+fachada_12.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-6.624316215515137
+fachada_12.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-1.6044540405273438
+fachada_12.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-0.09804344177246094
+fachada_12.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-0.6085720062255859
+fachada_12.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-3.368973731994629
+fachada_12.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-0.22672080993652344
+fachada_12.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-3.5759363174438477
+fachada_12.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.230480194091797
+fachada_12.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-1.9442729949951172
+fachada_12.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,0.08731842041015625
+fachada_12.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-0.8784456253051758
+fachada_12.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-1.126814842224121
+fachada_12.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",0.32682228088378906
+fachada_12.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-3.3598766326904297
+fachada_12.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-1.9245882034301758
+fachada_13.jpg,full,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",0.1311016082763672
+fachada_13.jpg,full,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-3.947877883911133
+fachada_13.jpg,full,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-2.6942129135131836
+fachada_13.jpg,full,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-0.03754615783691406
+fachada_13.jpg,full,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-2.46954345703125
+fachada_13.jpg,full,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-6.245789527893066
+fachada_13.jpg,full,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-0.9001083374023438
+fachada_13.jpg,full,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,0.2022876739501953
+fachada_13.jpg,full,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-0.6564121246337891
+fachada_13.jpg,full,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-4.499045372009277
+fachada_13.jpg,full,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-3.15203857421875
+fachada_13.jpg,full,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-7.536251068115234
+fachada_13.jpg,full,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.630906105041504
+fachada_13.jpg,full,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-7.234511375427246
+fachada_13.jpg,full,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-2.7015390396118164
+fachada_13.jpg,full,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-0.5134029388427734
+fachada_13.jpg,full,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-2.9221534729003906
+fachada_13.jpg,full,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-0.4902381896972656
+fachada_13.jpg,full,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-3.5498886108398438
+fachada_13.jpg,full,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-2.7279930114746094
+fachada_13.jpg,roi,presence,commercial,1,"Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",-4.48607063293457
+fachada_13.jpg,roi,presence,commercial,2,En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.,-3.2783727645874023
+fachada_13.jpg,roi,presence,commercial,3,"En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",-4.734447479248047
+fachada_13.jpg,roi,presence,commercial,4,"La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",-3.137022018432617
+fachada_13.jpg,roi,presence,commercial,5,"Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local.",-3.928709030151367
+fachada_13.jpg,roi,presence,noncommercial,1,La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.,-10.014900207519531
+fachada_13.jpg,roi,presence,noncommercial,2,"Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",-5.210493087768555
+fachada_13.jpg,roi,presence,noncommercial,3,El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.,-3.6041269302368164
+fachada_13.jpg,roi,presence,noncommercial,4,"La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",-4.173709869384766
+fachada_13.jpg,roi,presence,noncommercial,5,La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios.,-8.250391006469727
+fachada_13.jpg,roi,operation,active,1,El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.,-4.3277482986450195
+fachada_13.jpg,roi,operation,active,2,En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.,-5.4625654220581055
+fachada_13.jpg,roi,operation,active,3,Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.,-3.530710220336914
+fachada_13.jpg,roi,operation,active,4,Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.,-8.454951286315918
+fachada_13.jpg,roi,operation,active,5,La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto.,-5.560483932495117
+fachada_13.jpg,roi,operation,unverifiable,1,"Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",-1.1691789627075195
+fachada_13.jpg,roi,operation,unverifiable,2,"Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",-1.145768165588379
+fachada_13.jpg,roi,operation,unverifiable,3,"La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",-2.3112430572509766
+fachada_13.jpg,roi,operation,unverifiable,4,"Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",-6.770791053771973
+fachada_13.jpg,roi,operation,unverifiable,5,"Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención.",-4.5861005783081055

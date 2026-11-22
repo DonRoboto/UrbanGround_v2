@@ -1,0 +1,23 @@
+{
+  "A": [
+    "Fotografía de un negocio abierto al público en la planta baja de un edificio.",
+    "Fotografía de un comercio funcionando en la planta baja de una calle.",
+    "Fotografía de un establecimiento que ofrece productos o servicios en este momento.",
+    "Fotografía de una tienda de barrio abierta y preparada para vender.",
+    "Fotografía de un local comercial con señales visibles de operación."
+  ],
+  "I": [
+    "Fotografía de un local comercial cuya actividad actual no se puede confirmar.",
+    "Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.",
+    "Fotografía de un comercio que podría estar cerrado o sin operar en este momento.",
+    "Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.",
+    "Fotografía de un local cuyo funcionamiento no puede establecerse visualmente."
+  ],
+  "N": [
+    "Fotografía de una fachada sin establecimiento comercial en la planta baja.",
+    "Fotografía de una vivienda sin negocio visible en el frente principal.",
+    "Fotografía de un edificio residencial sin comercio en la entrada principal.",
+    "Fotografía de una fachada habitacional sin venta ni servicios en planta baja.",
+    "Fotografía de un frente urbano no comercial."
+  ]
+}

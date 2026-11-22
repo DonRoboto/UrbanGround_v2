@@ -1,0 +1,10 @@
+# Revisioned inference environment from the recorded 2026-11-21 run.
+# IMPORTANT: install your platform-compatible PyTorch 2.6.0 (+ CUDA 12.4 on the original NVIDIA RTX 3090)
+# before this command; torch/CUDA wheels depend on your machine.
+-e .[inference,auto-roi,report,test]
+transformers==4.57.6
+tokenizers==0.22.2
+numpy==2.2.6
+Pillow==12.3.0
+PyYAML==6.0.3
+safetensors==0.8.0

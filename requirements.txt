@@ -1,0 +1,3 @@
+# GPU: Instala previamente un PyTorch compatible con tu driver/CUDA, si corresponde.
+# Dependencias para los experimentos E0-E5, figuras y pruebas de CPU.
+-e .[inference,auto-roi,report,test]

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urban-groundfloor-vlm"
+version = "1.1.0"
+description = "Reproducible SigLIP 2 study of ground-floor commercial evidence: E0-E4 and diagnostics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Urban VLM research contributors"}]
+dependencies = ["Pillow>=10,<13", "PyYAML>=6,<7", "numpy>=1.24,<3"]
+
+[project.optional-dependencies]
+inference = ["torch>=2.2", "transformers>=4.56,<5", "safetensors>=0.4"]
+test = ["pytest>=8,<10"]
+auto-roi = ["opencv-python-headless>=4.8,<5"]
+report = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+urban-vlm = "urban_vlm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

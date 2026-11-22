@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-11-21T17:50:30.883661+00:00",
+  "pipeline": "ground_floor_roi_candidate_v1.1",
+  "method": "owlv2",
+  "params": {
+    "method": "owlv2",
+    "center_prior": 0.5,
+    "min_width_ratio": 0.28,
+    "min_height_ratio": 0.25,
+    "owl_threshold": 0.12,
+    "owl_model": "google/owlv2-base-patch16-ensemble",
+    "owl_device": "auto"
+  },
+  "owl_model_commit_detected": "cfd3195ba4ea9592eec887ded089f4c08eff231d",
+  "images_sha256": {
+    "fachada_01.jpg": "115dc0dc6d92d837f598d2387664919d98fe96e69b8fa4911d44e1505067d7ea",
+    "fachada_02.jpg": "e8b5be0b74d2b77be23309c0e53ff0c508ab6763fb4c457ff165ec26d6454fcf",
+    "fachada_03.jpg": "893cb47681b432945f207af34d168d8614637b1ca14400907a5f7109f75860d0",
+    "fachada_04.jpg": "ce80da4a659603777a5d96b4fecba6de996ff48a336c986ac018fc9669247602",
+    "fachada_05.jpg": "c1d476a0df8b9da7534f22819582ae851226fadf59a3ba4a2588f7191db280a9",
+    "fachada_06.jpg": "b95cac362280ca77720646f643f4798ba4571385fdb80821c44070ba69fc1af3",
+    "fachada_07.jpg": "e15b2b365244f76cf2acde45359fe2100744da754db858494bd372ba46194593",
+    "fachada_08.jpg": "8d062a200405e476b40a8f2219b284b172b9a75c662c30fc1ea25c03a9fb7512",
+    "fachada_09.jpg": "93e2dd2c34f37cc4c0df07a230fd51c31ab725f628d517a3445c97e8047a172f",
+    "fachada_10.jpg": "bf8e955b393fc85ea51f6794f284ae1476c67c5eb08612e7c0633b11e6204616",
+    "fachada_11.jpg": "6a3daa99c26f9ef5628b57ef48b0582dd4c51d0f98855a1d10524a88bbfd15ab",
+    "fachada_12.jpg": "d2d70ff55925bfec71b8e85eace9d4a034c38f80d3a835e6b030cb7d0baa69bf",
+    "fachada_13.jpg": "bf867dcd58e5499123635b4ee749006498f9bc3003a9fb2996dd64af1177aa45"
+  },
+  "annotation_file_sha256": "c9edd7db04c396bc53bb9cc53f9770d7610cb5bf8e58f56e1f7658ccf47cd2b8",
+  "reference_rois_sha256": "73fa3bd18a8dcbc7be7ed689a44e36e39a22c753a67f297e56d042deb449853e",
+  "warning": "Automatic ROIs are proposals. Target frontage may be ambiguous; review all 13 before inference."
+}

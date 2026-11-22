@@ -1,0 +1,11 @@
+{
+  "images": 13,
+  "method_requested": "owlv2",
+  "method_counts": {
+    "owlv2": 13
+  },
+  "manual_review_count": 6,
+  "mean_iou_vs_manual": 0.3599843076923077,
+  "median_iou_vs_manual": 0.426037,
+  "note": "IoU compares ROIs only; it is not commercial activity detection accuracy."
+}

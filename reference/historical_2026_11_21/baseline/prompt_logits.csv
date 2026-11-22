@@ -1,0 +1,781 @@
+file,region,prompt_bank,class,prompt_index,prompt_text,logit
+fachada_01.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-4.088744163513184
+fachada_01.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.674753189086914
+fachada_01.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-6.287432670593262
+fachada_01.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-2.3373756408691406
+fachada_01.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-1.7038135528564453
+fachada_01.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.8546056747436523
+fachada_01.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-6.892759323120117
+fachada_01.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-5.61613655090332
+fachada_01.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.6535367965698242
+fachada_01.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-3.5983009338378906
+fachada_01.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.0032567977905273
+fachada_01.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-3.9498777389526367
+fachada_01.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-3.599193572998047
+fachada_01.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-3.829583168029785
+fachada_01.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-3.6605634689331055
+fachada_01.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.2712574005126953
+fachada_01.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-3.7123756408691406
+fachada_01.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-7.849734306335449
+fachada_01.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.289046287536621
+fachada_01.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-1.8395938873291016
+fachada_01.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-2.7935171127319336
+fachada_01.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-3.0144290924072266
+fachada_01.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.6757049560546875
+fachada_01.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-2.399496078491211
+fachada_01.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-4.101495742797852
+fachada_01.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.974313735961914
+fachada_01.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.829972267150879
+fachada_01.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-4.515204429626465
+fachada_01.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-3.1179208755493164
+fachada_01.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-0.8228120803833008
+fachada_01.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-2.669778823852539
+fachada_01.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.5285682678222656
+fachada_01.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-4.568079948425293
+fachada_01.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-0.8528661727905273
+fachada_01.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-2.294562339782715
+fachada_01.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-3.7967491149902344
+fachada_01.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-6.493473052978516
+fachada_01.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-3.856761932373047
+fachada_01.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-2.6711788177490234
+fachada_01.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-5.758440017700195
+fachada_01.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.611255645751953
+fachada_01.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-5.272085189819336
+fachada_01.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-5.036764144897461
+fachada_01.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-4.685887336730957
+fachada_01.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-3.9047069549560547
+fachada_01.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.3778924942016602
+fachada_01.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-3.052125930786133
+fachada_01.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-7.5507965087890625
+fachada_01.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.742501258850098
+fachada_01.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-1.8186511993408203
+fachada_01.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-2.1274309158325195
+fachada_01.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-3.6463565826416016
+fachada_01.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-6.133515357971191
+fachada_01.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-6.619655609130859
+fachada_01.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-6.405158996582031
+fachada_01.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-8.140568733215332
+fachada_01.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-5.524886131286621
+fachada_01.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-7.697455406188965
+fachada_01.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-3.729990005493164
+fachada_01.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-5.067966461181641
+fachada_02.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-4.005197525024414
+fachada_02.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-2.7761592864990234
+fachada_02.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-7.3416242599487305
+fachada_02.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-4.025382041931152
+fachada_02.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-2.7862377166748047
+fachada_02.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.9551525115966797
+fachada_02.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-5.5715484619140625
+fachada_02.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-5.620424270629883
+fachada_02.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.8805580139160156
+fachada_02.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-3.972559928894043
+fachada_02.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-2.645321846008301
+fachada_02.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-3.667552947998047
+fachada_02.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-4.068267822265625
+fachada_02.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-3.1003427505493164
+fachada_02.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-4.0621137619018555
+fachada_02.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.8689651489257812
+fachada_02.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-6.955140113830566
+fachada_02.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-6.517086029052734
+fachada_02.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-6.535306930541992
+fachada_02.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-3.116964340209961
+fachada_02.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-4.050223350524902
+fachada_02.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-1.8278789520263672
+fachada_02.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.8566389083862305
+fachada_02.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-3.6889305114746094
+fachada_02.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-5.55914306640625
+fachada_02.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-6.142584800720215
+fachada_02.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-5.939844131469727
+fachada_02.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-3.6508188247680664
+fachada_02.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-2.04437255859375
+fachada_02.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-1.1588115692138672
+fachada_02.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-4.080802917480469
+fachada_02.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-4.778992652893066
+fachada_02.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-5.50144100189209
+fachada_02.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.364882469177246
+fachada_02.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-3.9190711975097656
+fachada_02.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-5.304013252258301
+fachada_02.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-2.544989585876465
+fachada_02.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-3.891744613647461
+fachada_02.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.9027996063232422
+fachada_02.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-6.438758850097656
+fachada_02.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.863933563232422
+fachada_02.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-6.461335182189941
+fachada_02.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-5.978608131408691
+fachada_02.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-7.559624671936035
+fachada_02.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-4.290782928466797
+fachada_02.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-5.127362251281738
+fachada_02.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-5.415038108825684
+fachada_02.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-7.862338066101074
+fachada_02.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-8.028929710388184
+fachada_02.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-3.4286041259765625
+fachada_02.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-3.207749366760254
+fachada_02.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-0.7642326354980469
+fachada_02.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-5.191605567932129
+fachada_02.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-5.389147758483887
+fachada_02.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-4.41566276550293
+fachada_02.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-10.201396942138672
+fachada_02.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-8.552902221679688
+fachada_02.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-7.635287284851074
+fachada_02.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-5.071623802185059
+fachada_02.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-6.009551048278809
+fachada_03.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-4.983804702758789
+fachada_03.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.8461217880249023
+fachada_03.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-5.856925010681152
+fachada_03.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.844233512878418
+fachada_03.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-2.313547134399414
+fachada_03.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.2940502166748047
+fachada_03.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-5.81744384765625
+fachada_03.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-5.176241874694824
+fachada_03.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-2.5145444869995117
+fachada_03.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-3.1432228088378906
+fachada_03.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.111050605773926
+fachada_03.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-3.120144844055176
+fachada_03.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-2.2315311431884766
+fachada_03.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.5688867568969727
+fachada_03.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-3.016737937927246
+fachada_03.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.4083824157714844
+fachada_03.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-5.419981002807617
+fachada_03.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-8.40394115447998
+fachada_03.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.596860885620117
+fachada_03.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-3.249911308288574
+fachada_03.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-4.374449729919434
+fachada_03.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-2.969668388366699
+fachada_03.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.507635116577148
+fachada_03.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-2.0557518005371094
+fachada_03.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-5.592677116394043
+fachada_03.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.525803565979004
+fachada_03.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.805761337280273
+fachada_03.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-1.9241437911987305
+fachada_03.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-2.106344223022461
+fachada_03.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,0.0760040283203125
+fachada_03.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-0.9654560089111328
+fachada_03.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,0.2588043212890625
+fachada_03.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-2.0760202407836914
+fachada_03.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-0.4982585906982422
+fachada_03.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-1.2932777404785156
+fachada_03.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-1.2418394088745117
+fachada_03.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-1.9660015106201172
+fachada_03.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-1.1269445419311523
+fachada_03.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,0.38115501403808594
+fachada_03.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-2.3423280715942383
+fachada_03.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-0.6725292205810547
+fachada_03.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-3.0096120834350586
+fachada_03.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-1.5277643203735352
+fachada_03.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.2398767471313477
+fachada_03.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-1.1274528503417969
+fachada_03.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-2.028916358947754
+fachada_03.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-2.957736015319824
+fachada_03.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-8.722944259643555
+fachada_03.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.071931838989258
+fachada_03.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-0.3491363525390625
+fachada_03.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-2.2939977645874023
+fachada_03.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-0.3424339294433594
+fachada_03.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-2.6982192993164062
+fachada_03.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-1.5897369384765625
+fachada_03.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-3.920804977416992
+fachada_03.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-7.258353233337402
+fachada_03.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-7.2014923095703125
+fachada_03.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-3.771786689758301
+fachada_03.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-2.385470390319824
+fachada_03.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,0.32152557373046875
+fachada_04.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-4.4694623947143555
+fachada_04.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-2.8724374771118164
+fachada_04.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-7.489995002746582
+fachada_04.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-4.649422645568848
+fachada_04.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-4.324338912963867
+fachada_04.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.867311477661133
+fachada_04.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-7.761650085449219
+fachada_04.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-6.517752647399902
+fachada_04.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-2.962249755859375
+fachada_04.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-4.579377174377441
+fachada_04.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.8665647506713867
+fachada_04.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-3.309061050415039
+fachada_04.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-3.0453662872314453
+fachada_04.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.6975812911987305
+fachada_04.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-4.19740104675293
+fachada_04.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-2.4415693283081055
+fachada_04.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-7.3954057693481445
+fachada_04.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-8.513847351074219
+fachada_04.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-6.266304016113281
+fachada_04.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-5.179994583129883
+fachada_04.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-5.249392509460449
+fachada_04.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-4.83596134185791
+fachada_04.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-6.233633041381836
+fachada_04.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-4.746932029724121
+fachada_04.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-7.304248809814453
+fachada_04.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.146925926208496
+fachada_04.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-5.897806167602539
+fachada_04.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-2.9567689895629883
+fachada_04.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-2.7082653045654297
+fachada_04.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-0.9796981811523438
+fachada_04.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-2.0772018432617188
+fachada_04.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.793654441833496
+fachada_04.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-5.1478071212768555
+fachada_04.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-0.34688758850097656
+fachada_04.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-2.8203258514404297
+fachada_04.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-3.6531524658203125
+fachada_04.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-4.141751289367676
+fachada_04.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-3.224484443664551
+fachada_04.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-2.016775131225586
+fachada_04.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-5.529038429260254
+fachada_04.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.1784210205078125
+fachada_04.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-4.250977516174316
+fachada_04.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-4.46791934967041
+fachada_04.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-3.5600337982177734
+fachada_04.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-3.1683998107910156
+fachada_04.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.0404157638549805
+fachada_04.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-3.857816696166992
+fachada_04.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-6.77098274230957
+fachada_04.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-6.995068550109863
+fachada_04.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-1.2833452224731445
+fachada_04.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-4.095287322998047
+fachada_04.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-2.440500259399414
+fachada_04.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-5.79218864440918
+fachada_04.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-4.834378242492676
+fachada_04.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-5.831668853759766
+fachada_04.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-7.705482482910156
+fachada_04.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-6.271601676940918
+fachada_04.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-6.541887283325195
+fachada_04.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-3.5233469009399414
+fachada_04.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-4.540291786193848
+fachada_05.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-4.916154861450195
+fachada_05.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.490281105041504
+fachada_05.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-7.427426338195801
+fachada_05.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-4.327381134033203
+fachada_05.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-3.7235097885131836
+fachada_05.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.7943811416625977
+fachada_05.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-6.245795249938965
+fachada_05.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-5.547636985778809
+fachada_05.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-3.1725549697875977
+fachada_05.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-3.5730371475219727
+fachada_05.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.829472541809082
+fachada_05.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-3.055312156677246
+fachada_05.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-3.3226804733276367
+fachada_05.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.542941093444824
+fachada_05.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-3.2308273315429688
+fachada_05.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.5712623596191406
+fachada_05.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-6.824641227722168
+fachada_05.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-8.0455322265625
+fachada_05.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-6.854915618896484
+fachada_05.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-3.884857177734375
+fachada_05.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-4.679758071899414
+fachada_05.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-4.557295799255371
+fachada_05.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.688154220581055
+fachada_05.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-2.6995105743408203
+fachada_05.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-6.856941223144531
+fachada_05.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.046379089355469
+fachada_05.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.890935897827148
+fachada_05.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-2.552506446838379
+fachada_05.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-1.8136749267578125
+fachada_05.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-0.9469175338745117
+fachada_05.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-0.028669357299804688
+fachada_05.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,0.16779136657714844
+fachada_05.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-2.4068870544433594
+fachada_05.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-0.6164188385009766
+fachada_05.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,0.6348419189453125
+fachada_05.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-0.9275064468383789
+fachada_05.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-1.609370231628418
+fachada_05.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-0.03772735595703125
+fachada_05.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,1.2588653564453125
+fachada_05.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-2.318863868713379
+fachada_05.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-0.7912521362304688
+fachada_05.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-1.484786033630371
+fachada_05.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-0.9382591247558594
+fachada_05.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.0474605560302734
+fachada_05.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-1.283212661743164
+fachada_05.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-0.9053449630737305
+fachada_05.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-2.300813674926758
+fachada_05.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-6.718250274658203
+fachada_05.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.073491096496582
+fachada_05.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-0.5966892242431641
+fachada_05.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-1.3259859085083008
+fachada_05.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-0.6699771881103516
+fachada_05.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-2.1598072052001953
+fachada_05.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-0.7452259063720703
+fachada_05.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-3.718935012817383
+fachada_05.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.59127140045166
+fachada_05.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.32476806640625
+fachada_05.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-2.901705741882324
+fachada_05.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-0.8719596862792969
+fachada_05.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-1.1099557876586914
+fachada_06.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-4.985639572143555
+fachada_06.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.6892356872558594
+fachada_06.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-7.239742279052734
+fachada_06.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.213168144226074
+fachada_06.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-1.7993907928466797
+fachada_06.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.2885446548461914
+fachada_06.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-7.108854293823242
+fachada_06.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-5.645634651184082
+fachada_06.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-2.791259765625
+fachada_06.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-3.589940071105957
+fachada_06.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.5219335556030273
+fachada_06.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-2.950100898742676
+fachada_06.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-3.6225013732910156
+fachada_06.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.5071401596069336
+fachada_06.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-3.1974306106567383
+fachada_06.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-0.2864875793457031
+fachada_06.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-5.219209671020508
+fachada_06.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-8.299967765808105
+fachada_06.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.749192237854004
+fachada_06.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-3.982015609741211
+fachada_06.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-4.00023078918457
+fachada_06.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-4.283923149108887
+fachada_06.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-5.284329414367676
+fachada_06.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-2.490976333618164
+fachada_06.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-6.410479545593262
+fachada_06.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.032107353210449
+fachada_06.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.371428489685059
+fachada_06.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-2.6844167709350586
+fachada_06.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-2.1477622985839844
+fachada_06.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-1.0315055847167969
+fachada_06.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-5.248203277587891
+fachada_06.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-4.326650619506836
+fachada_06.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-4.5162458419799805
+fachada_06.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-4.950840950012207
+fachada_06.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-4.469821929931641
+fachada_06.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-4.808248519897461
+fachada_06.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-5.777714729309082
+fachada_06.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-4.609771728515625
+fachada_06.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-3.5263071060180664
+fachada_06.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-6.335412979125977
+fachada_06.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-4.671299934387207
+fachada_06.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-6.169757843017578
+fachada_06.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-4.958493232727051
+fachada_06.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-5.443011283874512
+fachada_06.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-5.434120178222656
+fachada_06.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-5.0532426834106445
+fachada_06.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-7.5664472579956055
+fachada_06.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-11.043593406677246
+fachada_06.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-7.152806282043457
+fachada_06.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-4.201284408569336
+fachada_06.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-5.641195297241211
+fachada_06.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-4.600020408630371
+fachada_06.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-6.972545623779297
+fachada_06.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-3.9728145599365234
+fachada_06.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-6.339229583740234
+fachada_06.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-9.666751861572266
+fachada_06.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-7.832640647888184
+fachada_06.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-6.020146369934082
+fachada_06.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-3.92153263092041
+fachada_06.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-4.845247268676758
+fachada_07.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-3.24261474609375
+fachada_07.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.3661346435546875
+fachada_07.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-5.9014739990234375
+fachada_07.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-2.3325300216674805
+fachada_07.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-1.1069869995117188
+fachada_07.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-1.4883184432983398
+fachada_07.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-5.429045677185059
+fachada_07.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-4.668820381164551
+fachada_07.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.3124523162841797
+fachada_07.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-2.619900703430176
+fachada_07.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-2.0737361907958984
+fachada_07.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-1.9887771606445312
+fachada_07.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-2.133607864379883
+fachada_07.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-1.8205890655517578
+fachada_07.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-2.8245325088500977
+fachada_07.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,0.2065143585205078
+fachada_07.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-4.401354789733887
+fachada_07.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-6.174376487731934
+fachada_07.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-4.559774398803711
+fachada_07.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-2.1407041549682617
+fachada_07.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-2.822115898132324
+fachada_07.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-1.9515342712402344
+fachada_07.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.8645524978637695
+fachada_07.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-1.4938154220581055
+fachada_07.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-5.243104934692383
+fachada_07.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-3.805422782897949
+fachada_07.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-3.687610626220703
+fachada_07.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-1.8566570281982422
+fachada_07.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-1.8836383819580078
+fachada_07.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,0.375274658203125
+fachada_07.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-1.4944629669189453
+fachada_07.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.7087373733520508
+fachada_07.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-3.5579309463500977
+fachada_07.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-1.061324119567871
+fachada_07.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-1.4834985733032227
+fachada_07.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.8020410537719727
+fachada_07.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-4.421429634094238
+fachada_07.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-3.0137157440185547
+fachada_07.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.2812986373901367
+fachada_07.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-2.937124252319336
+fachada_07.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-0.4933948516845703
+fachada_07.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-0.49476051330566406
+fachada_07.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-0.8964319229125977
+fachada_07.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-0.3915386199951172
+fachada_07.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-1.3343639373779297
+fachada_07.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-2.4941511154174805
+fachada_07.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-3.0215864181518555
+fachada_07.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-7.697765350341797
+fachada_07.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-3.4236679077148438
+fachada_07.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-1.2042207717895508
+fachada_07.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-3.2006750106811523
+fachada_07.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-1.7107524871826172
+fachada_07.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-5.853989601135254
+fachada_07.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-2.055898666381836
+fachada_07.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-5.9286088943481445
+fachada_07.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-2.352410316467285
+fachada_07.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-2.9464054107666016
+fachada_07.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-1.666177749633789
+fachada_07.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-2.886699676513672
+fachada_07.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-0.3712940216064453
+fachada_08.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-5.098679542541504
+fachada_08.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-2.77081298828125
+fachada_08.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-7.549437522888184
+fachada_08.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.8400468826293945
+fachada_08.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-3.8906917572021484
+fachada_08.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-3.5335025787353516
+fachada_08.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-7.134537696838379
+fachada_08.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-6.216889381408691
+fachada_08.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-3.853520393371582
+fachada_08.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-5.259598731994629
+fachada_08.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-4.268719673156738
+fachada_08.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-4.981571197509766
+fachada_08.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-4.4346723556518555
+fachada_08.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-4.437108993530273
+fachada_08.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-4.432439804077148
+fachada_08.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.4699077606201172
+fachada_08.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-5.504249572753906
+fachada_08.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-7.049402236938477
+fachada_08.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-7.832045555114746
+fachada_08.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-3.735844612121582
+fachada_08.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-5.008244514465332
+fachada_08.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-3.598252296447754
+fachada_08.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-6.267392158508301
+fachada_08.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-4.958242416381836
+fachada_08.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-5.827630996704102
+fachada_08.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-7.0133209228515625
+fachada_08.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-5.892906188964844
+fachada_08.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-4.491449356079102
+fachada_08.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-3.609042167663574
+fachada_08.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-2.554922103881836
+fachada_08.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-1.1194915771484375
+fachada_08.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,0.1810436248779297
+fachada_08.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-2.5767107009887695
+fachada_08.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-0.7615203857421875
+fachada_08.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-1.2795658111572266
+fachada_08.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-1.7029876708984375
+fachada_08.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-2.214876174926758
+fachada_08.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-1.4940567016601562
+fachada_08.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-0.9896974563598633
+fachada_08.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-2.9389753341674805
+fachada_08.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-1.4330711364746094
+fachada_08.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-4.996102333068848
+fachada_08.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-3.5543832778930664
+fachada_08.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-4.594611167907715
+fachada_08.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-1.708399772644043
+fachada_08.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-2.1744871139526367
+fachada_08.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-2.68865966796875
+fachada_08.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-3.856161117553711
+fachada_08.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.634547233581543
+fachada_08.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,1.1303844451904297
+fachada_08.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-1.7741641998291016
+fachada_08.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,0.3971061706542969
+fachada_08.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.082271575927734
+fachada_08.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-1.7878131866455078
+fachada_08.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-3.307241439819336
+fachada_08.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-7.807165145874023
+fachada_08.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-6.726509094238281
+fachada_08.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-6.356100082397461
+fachada_08.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-3.3789682388305664
+fachada_08.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-2.2762317657470703
+fachada_09.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-4.387143135070801
+fachada_09.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.8603754043579102
+fachada_09.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-6.531190872192383
+fachada_09.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.4244394302368164
+fachada_09.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-2.5290565490722656
+fachada_09.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.689157485961914
+fachada_09.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-5.548592567443848
+fachada_09.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-4.668784141540527
+fachada_09.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-2.083359718322754
+fachada_09.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-3.377903938293457
+fachada_09.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-3.239373207092285
+fachada_09.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-2.2543392181396484
+fachada_09.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-2.4302988052368164
+fachada_09.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.2321929931640625
+fachada_09.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-3.092193603515625
+fachada_09.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-0.900578498840332
+fachada_09.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-5.575041770935059
+fachada_09.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-8.524104118347168
+fachada_09.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.806772232055664
+fachada_09.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-3.798219680786133
+fachada_09.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-4.30460262298584
+fachada_09.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-4.144662857055664
+fachada_09.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.562841415405273
+fachada_09.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-2.6957292556762695
+fachada_09.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-6.357625961303711
+fachada_09.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.188386917114258
+fachada_09.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.8452043533325195
+fachada_09.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-2.0319290161132812
+fachada_09.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-1.8550300598144531
+fachada_09.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-0.481353759765625
+fachada_09.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-1.4507026672363281
+fachada_09.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-0.2839546203613281
+fachada_09.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-3.366641044616699
+fachada_09.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-0.4318981170654297
+fachada_09.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-0.3530101776123047
+fachada_09.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-1.7314062118530273
+fachada_09.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-2.2914810180664062
+fachada_09.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-0.9347829818725586
+fachada_09.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,0.4944934844970703
+fachada_09.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-3.101175308227539
+fachada_09.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-1.6370000839233398
+fachada_09.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-2.168621063232422
+fachada_09.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-1.7834606170654297
+fachada_09.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.327481269836426
+fachada_09.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-0.8004350662231445
+fachada_09.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.2223663330078125
+fachada_09.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-3.170718193054199
+fachada_09.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-8.200461387634277
+fachada_09.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.5382232666015625
+fachada_09.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-1.2487821578979492
+fachada_09.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-1.4949016571044922
+fachada_09.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-1.9189996719360352
+fachada_09.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-2.4655723571777344
+fachada_09.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-0.6068096160888672
+fachada_09.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-4.5036821365356445
+fachada_09.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-7.072442054748535
+fachada_09.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.736438751220703
+fachada_09.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-3.787602424621582
+fachada_09.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-1.279022216796875
+fachada_09.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-1.6156492233276367
+fachada_10.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-3.212395668029785
+fachada_10.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.1762819290161133
+fachada_10.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-6.352910041809082
+fachada_10.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.4096641540527344
+fachada_10.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-3.355470657348633
+fachada_10.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-2.629641532897949
+fachada_10.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-5.690333366394043
+fachada_10.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-4.855242729187012
+fachada_10.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-2.2232017517089844
+fachada_10.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-2.638284683227539
+fachada_10.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-2.55666446685791
+fachada_10.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-3.0095252990722656
+fachada_10.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-2.7152767181396484
+fachada_10.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.602725028991699
+fachada_10.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-3.3992223739624023
+fachada_10.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.2798128128051758
+fachada_10.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-5.359039306640625
+fachada_10.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-6.57322883605957
+fachada_10.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.632315635681152
+fachada_10.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-2.19596004486084
+fachada_10.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-5.7016448974609375
+fachada_10.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-2.179732322692871
+fachada_10.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-5.7823286056518555
+fachada_10.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-2.8988380432128906
+fachada_10.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-5.947702407836914
+fachada_10.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.947328567504883
+fachada_10.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-6.4965105056762695
+fachada_10.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-2.5275487899780273
+fachada_10.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-2.606358528137207
+fachada_10.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-0.3066883087158203
+fachada_10.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-0.0850067138671875
+fachada_10.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,0.6654052734375
+fachada_10.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-3.0129528045654297
+fachada_10.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,1.3275375366210938
+fachada_10.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-0.7415866851806641
+fachada_10.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-1.023859977722168
+fachada_10.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-1.9727554321289062
+fachada_10.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-0.44281005859375
+fachada_10.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-0.1955852508544922
+fachada_10.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-2.1943044662475586
+fachada_10.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-1.341064453125
+fachada_10.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-2.7211837768554688
+fachada_10.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-2.9220895767211914
+fachada_10.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.3095760345458984
+fachada_10.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-1.6425199508666992
+fachada_10.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,0.33231544494628906
+fachada_10.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-1.3882055282592773
+fachada_10.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-4.542329788208008
+fachada_10.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-4.132190704345703
+fachada_10.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,0.6716575622558594
+fachada_10.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-4.349266052246094
+fachada_10.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-0.8190860748291016
+fachada_10.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.185858726501465
+fachada_10.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-1.8446378707885742
+fachada_10.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-3.777411460876465
+fachada_10.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-7.122444152832031
+fachada_10.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-5.5675048828125
+fachada_10.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-3.915534019470215
+fachada_10.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-2.570511817932129
+fachada_10.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-2.1837568283081055
+fachada_11.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-6.7103166580200195
+fachada_11.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-5.847704887390137
+fachada_11.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-10.779948234558105
+fachada_11.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-7.020688056945801
+fachada_11.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-6.864035606384277
+fachada_11.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-6.0608625411987305
+fachada_11.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-10.140314102172852
+fachada_11.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-8.686738967895508
+fachada_11.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-6.399109840393066
+fachada_11.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-7.846945762634277
+fachada_11.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-6.348545074462891
+fachada_11.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-6.665365219116211
+fachada_11.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-6.462263107299805
+fachada_11.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-5.602087020874023
+fachada_11.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-7.066010475158691
+fachada_11.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-4.281276702880859
+fachada_11.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-9.948238372802734
+fachada_11.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-9.892986297607422
+fachada_11.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-9.687102317810059
+fachada_11.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-8.004117965698242
+fachada_11.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-6.804963111877441
+fachada_11.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-6.191632270812988
+fachada_11.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-8.883806228637695
+fachada_11.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-8.033604621887207
+fachada_11.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-9.928032875061035
+fachada_11.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-8.478493690490723
+fachada_11.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-8.267541885375977
+fachada_11.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-5.579245567321777
+fachada_11.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-4.4900360107421875
+fachada_11.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-4.685417175292969
+fachada_11.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-1.269902229309082
+fachada_11.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.5660781860351562
+fachada_11.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-6.4140825271606445
+fachada_11.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-1.7607946395874023
+fachada_11.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-1.833369255065918
+fachada_11.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-3.921555519104004
+fachada_11.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-4.992563247680664
+fachada_11.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-3.61627197265625
+fachada_11.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.0542593002319336
+fachada_11.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-6.2051897048950195
+fachada_11.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-1.5690832138061523
+fachada_11.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-2.0608091354370117
+fachada_11.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-2.297567367553711
+fachada_11.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-1.364593505859375
+fachada_11.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-1.9636516571044922
+fachada_11.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.5882329940795898
+fachada_11.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-6.871367454528809
+fachada_11.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-7.8916473388671875
+fachada_11.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-7.250638961791992
+fachada_11.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-4.071437835693359
+fachada_11.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-2.7476654052734375
+fachada_11.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-3.249861717224121
+fachada_11.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-6.888372421264648
+fachada_11.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-4.470141410827637
+fachada_11.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-8.2662992477417
+fachada_11.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.590118408203125
+fachada_11.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-3.127941131591797
+fachada_11.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-2.9410629272460938
+fachada_11.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-0.8363418579101562
+fachada_11.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-2.8093957901000977
+fachada_12.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-3.231698989868164
+fachada_12.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-0.832270622253418
+fachada_12.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-6.366912841796875
+fachada_12.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.0936079025268555
+fachada_12.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-2.943985939025879
+fachada_12.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-1.825338363647461
+fachada_12.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-6.551399230957031
+fachada_12.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-4.896577835083008
+fachada_12.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.4959774017333984
+fachada_12.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-3.279120445251465
+fachada_12.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-1.855112075805664
+fachada_12.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-1.3328018188476562
+fachada_12.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-1.2325220108032227
+fachada_12.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-1.0392236709594727
+fachada_12.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-2.660477638244629
+fachada_12.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.195012092590332
+fachada_12.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-6.731743812561035
+fachada_12.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-7.517873764038086
+fachada_12.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-5.648916244506836
+fachada_12.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-3.6273794174194336
+fachada_12.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-3.7909250259399414
+fachada_12.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-3.216388702392578
+fachada_12.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-5.397981643676758
+fachada_12.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-3.3226633071899414
+fachada_12.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-6.89394474029541
+fachada_12.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-2.9609546661376953
+fachada_12.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-3.7369651794433594
+fachada_12.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-1.2194194793701172
+fachada_12.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-1.548995018005371
+fachada_12.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,1.0950279235839844
+fachada_12.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,0.5065670013427734
+fachada_12.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,0.20387840270996094
+fachada_12.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-1.4356584548950195
+fachada_12.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,1.2336769104003906
+fachada_12.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-0.4363212585449219
+fachada_12.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,0.2194366455078125
+fachada_12.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-2.9620094299316406
+fachada_12.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-0.3723182678222656
+fachada_12.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,0.9393177032470703
+fachada_12.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-1.997941017150879
+fachada_12.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-0.5175800323486328
+fachada_12.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-2.074223518371582
+fachada_12.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-0.6848487854003906
+fachada_12.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.1235456466674805
+fachada_12.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-0.975132942199707
+fachada_12.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,0.18217849731445312
+fachada_12.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-2.9478588104248047
+fachada_12.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-8.004712104797363
+fachada_12.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-1.3911638259887695
+fachada_12.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,0.04625892639160156
+fachada_12.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-0.9872579574584961
+fachada_12.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-0.5350933074951172
+fachada_12.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-2.327794075012207
+fachada_12.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-2.608210563659668
+fachada_12.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-4.190199851989746
+fachada_12.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-5.233482360839844
+fachada_12.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.599231719970703
+fachada_12.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-3.2066869735717773
+fachada_12.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-0.6989974975585938
+fachada_12.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,0.27854347229003906
+fachada_13.jpg,full,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-3.493340492248535
+fachada_13.jpg,full,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-1.3771724700927734
+fachada_13.jpg,full,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-6.049191474914551
+fachada_13.jpg,full,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.1985034942626953
+fachada_13.jpg,full,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-1.5197696685791016
+fachada_13.jpg,full,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-1.3850126266479492
+fachada_13.jpg,full,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-4.733978271484375
+fachada_13.jpg,full,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-4.83709716796875
+fachada_13.jpg,full,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.0062532424926758
+fachada_13.jpg,full,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-2.2504234313964844
+fachada_13.jpg,full,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-1.9651451110839844
+fachada_13.jpg,full,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-2.521883010864258
+fachada_13.jpg,full,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-2.43198299407959
+fachada_13.jpg,full,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-2.0396318435668945
+fachada_13.jpg,full,generic,N,5,Fotografía de un frente urbano no comercial.,-2.5074329376220703
+fachada_13.jpg,full,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-1.5413751602172852
+fachada_13.jpg,full,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-5.59478759765625
+fachada_13.jpg,full,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-5.398464202880859
+fachada_13.jpg,full,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-4.999555587768555
+fachada_13.jpg,full,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-2.724493980407715
+fachada_13.jpg,full,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-2.2755918502807617
+fachada_13.jpg,full,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,-1.4897518157958984
+fachada_13.jpg,full,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-3.5458574295043945
+fachada_13.jpg,full,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-1.5304536819458008
+fachada_13.jpg,full,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-4.400508880615234
+fachada_13.jpg,full,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-4.630346298217773
+fachada_13.jpg,full,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-4.770686149597168
+fachada_13.jpg,full,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-1.646967887878418
+fachada_13.jpg,full,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-0.6586475372314453
+fachada_13.jpg,full,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,0.7435207366943359
+fachada_13.jpg,roi,generic,A,1,Fotografía de un negocio abierto al público en la planta baja de un edificio.,-3.2303876876831055
+fachada_13.jpg,roi,generic,A,2,Fotografía de un comercio funcionando en la planta baja de una calle.,-3.296344757080078
+fachada_13.jpg,roi,generic,A,3,Fotografía de un establecimiento que ofrece productos o servicios en este momento.,-4.935840606689453
+fachada_13.jpg,roi,generic,A,4,Fotografía de una tienda de barrio abierta y preparada para vender.,-3.1387100219726562
+fachada_13.jpg,roi,generic,A,5,Fotografía de un local comercial con señales visibles de operación.,-2.6609411239624023
+fachada_13.jpg,roi,generic,I,1,Fotografía de un local comercial cuya actividad actual no se puede confirmar.,-3.489870071411133
+fachada_13.jpg,roi,generic,I,2,Fotografía de un establecimiento anunciado pero sin señales claras de atención al público.,-1.9790802001953125
+fachada_13.jpg,roi,generic,I,3,Fotografía de un comercio que podría estar cerrado o sin operar en este momento.,-3.605405807495117
+fachada_13.jpg,roi,generic,I,4,Fotografía de un negocio identificado por su fachada pero con estado de operación desconocido.,-1.7413702011108398
+fachada_13.jpg,roi,generic,I,5,Fotografía de un local cuyo funcionamiento no puede establecerse visualmente.,-4.434579849243164
+fachada_13.jpg,roi,generic,N,1,Fotografía de una fachada sin establecimiento comercial en la planta baja.,-2.1773109436035156
+fachada_13.jpg,roi,generic,N,2,Fotografía de una vivienda sin negocio visible en el frente principal.,-5.122469902038574
+fachada_13.jpg,roi,generic,N,3,Fotografía de un edificio residencial sin comercio en la entrada principal.,-4.0565290451049805
+fachada_13.jpg,roi,generic,N,4,Fotografía de una fachada habitacional sin venta ni servicios en planta baja.,-4.676438331604004
+fachada_13.jpg,roi,generic,N,5,Fotografía de un frente urbano no comercial.,-2.878371238708496
+fachada_13.jpg,roi,contextual,A,1,En planta baja hay una tienda de barrio abierta con mercancías expuestas y acceso para comprar.,-4.603992462158203
+fachada_13.jpg,roi,contextual,A,2,"Hay un puesto de venta instalado a nivel de banqueta, con productos listos para vender.",-5.885442733764648
+fachada_13.jpg,roi,contextual,A,3,En la planta baja hay un restaurante o fonda abierto con mesas dispuestas para comensales.,-6.442805290222168
+fachada_13.jpg,roi,contextual,A,4,"Hay un taller o local de servicios abierto con herramientas, materiales o atención visible.",-7.704831123352051
+fachada_13.jpg,roi,contextual,A,5,Un pequeño establecimiento de la calle tiene la entrada abierta y productos o mostrador a la vista.,-2.4770164489746094
+fachada_13.jpg,roi,contextual,I,1,"Hay un local con nombre o anuncio comercial, pero la cortina metálica está cerrada.",-1.6031312942504883
+fachada_13.jpg,roi,contextual,I,2,Se ve la fachada de una cafetería o tienda con acceso cubierto y sin atención visible.,0.31308555603027344
+fachada_13.jpg,roi,contextual,I,3,"Hay un negocio anunciado con publicidad, pero no se observa venta ni personal atendiendo.",-4.699856758117676
+fachada_13.jpg,roi,contextual,I,4,"En planta baja hay un establecimiento con señales comerciales, sin operación observable desde la calle.",-3.4895477294921875
+fachada_13.jpg,roi,contextual,I,5,"Se distingue un rótulo de comida o servicio, pero la fotografía no muestra actividad de clientes.",-4.127521514892578
+fachada_13.jpg,roi,contextual,N,1,La planta baja del frente principal tiene una puerta doméstica y ventanas residenciales.,-8.203821182250977
+fachada_13.jpg,roi,contextual,N,2,El frente de una vivienda muestra un portón de acceso privado sin mercancías ni anuncios.,-6.202059745788574
+fachada_13.jpg,roi,contextual,N,3,"En el centro de la imagen hay un edificio de viviendas con entrada habitacional, sin comercio.",-5.787519454956055
+fachada_13.jpg,roi,contextual,N,4,La planta baja tiene una cochera particular y no presenta señales de venta al público.,-3.6146936416625977
+fachada_13.jpg,roi,contextual,N,5,La fachada observada es de uso residencial y no contiene un local comercial identificable.,-3.337980270385742

@@ -1,0 +1,34 @@
+{
+  "presence": {
+    "commercial": [
+      "Fotografía de una planta baja que contiene un establecimiento comercial identificable, aunque ocupe una pequeña parte de una vivienda.",
+      "En este frente existe un puesto informal con productos colocados para ofrecerlos a personas en la calle.",
+      "En la planta baja hay un pequeño local de alimentos o una cocina económica con mostrador, menú o área de venta.",
+      "La fachada contiene un taller, una cerrajería o un negocio de servicios con herramientas, productos o señalización comercial.",
+      "Se observan indicios de uso comercial, como un letrero de negocio, exhibidores, vitrina o entrada de un local."
+    ],
+    "noncommercial": [
+      "La planta baja del frente objetivo solo muestra una entrada privada de vivienda y ventanas domésticas.",
+      "Frente residencial con portón de acceso a una cochera particular, sin señales de local comercial.",
+      "El edificio central tiene accesos habitacionales y no presenta un establecimiento comercial identificable.",
+      "La fachada corresponde a una vivienda sin anuncios comerciales, mercancía o mostradores hacia la calle.",
+      "La planta baja observada es un acceso doméstico privado y no un lugar destinado a ventas o servicios."
+    ]
+  },
+  "operation": {
+    "active": [
+      "El local de planta baja tiene la entrada abierta y productos exhibidos para su venta.",
+      "En la banqueta hay un puesto instalado con mercancía disponible para las personas que pasan.",
+      "Se observa una fonda o pequeño restaurante abierto con mesas o sillas listas para atender.",
+      "Un negocio de servicios tiene el acceso abierto y herramientas o mercancía expuesta al público.",
+      "La planta baja contiene un mostrador visible o mercancía dispuesta para venta con acceso abierto."
+    ],
+    "unverifiable": [
+      "Se ve un letrero comercial, pero el acceso al establecimiento está cubierto y la atención no puede observarse.",
+      "Se identifica un negocio por su anuncio, pero la cortina metálica principal está completamente cerrada.",
+      "La fachada tiene señales de comercio, aunque el interior y cualquier actividad de venta no son visibles.",
+      "Hay un local identificado por su rótulo, pero no existe evidencia visual suficiente de operación en esta fotografía.",
+      "Existe un establecimiento comercial reconocible, con la entrada tapada u oculta, sin posibilidad de verificar atención."
+    ]
+  }
+}

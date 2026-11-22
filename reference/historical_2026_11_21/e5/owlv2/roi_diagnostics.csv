@@ -1,0 +1,14 @@
+file,method,review,score,detail,detector_query,detector_score,width,height,area_ratio,iou_vs_manual
+fachada_01.jpg,owlv2,review_recommended,0.350382,Open-vocabulary cue detection; verify the target frontage,a shop entrance on the ground floor of a building,0.350382,640,640,0.239685,0.656786
+fachada_02.jpg,owlv2,review_recommended,0.335730,Open-vocabulary cue detection; verify the target frontage,a small storefront in a city street,0.335730,640,640,0.476880,0.511401
+fachada_03.jpg,owlv2,review_recommended,0.553563,Open-vocabulary cue detection; verify the target frontage,a service workshop entrance,0.553563,640,640,0.069922,0.507159
+fachada_04.jpg,owlv2,review_recommended,0.434950,Open-vocabulary cue detection; verify the target frontage,a service workshop entrance,0.434950,640,640,0.069922,0.485010
+fachada_05.jpg,owlv2,manual_review,0.365041,Open-vocabulary cue detection; verify the target frontage,a shop entrance on the ground floor of a building,0.365041,640,640,0.069922,0.000000
+fachada_06.jpg,owlv2,manual_review,0.476577,Open-vocabulary cue detection; verify the target frontage,a service workshop entrance,0.476577,640,640,0.070312,0.192774
+fachada_07.jpg,owlv2,manual_review,0.299206,Open-vocabulary cue detection; verify the target frontage,a service workshop entrance,0.299206,640,640,0.075166,0.323601
+fachada_08.jpg,owlv2,manual_review,0.221183,Open-vocabulary cue detection; verify the target frontage,a service workshop entrance,0.221183,640,640,0.070312,0.273884
+fachada_09.jpg,owlv2,manual_review,0.287751,Open-vocabulary cue detection; verify the target frontage,a small street-side counter selling products,0.287751,640,640,0.070312,0.061343
+fachada_10.jpg,owlv2,review_recommended,0.315328,Open-vocabulary cue detection; verify the target frontage,a shop entrance on the ground floor of a building,0.315328,640,640,0.170969,0.670760
+fachada_11.jpg,owlv2,review_recommended,0.328526,Open-vocabulary cue detection; verify the target frontage,a service workshop entrance,0.328526,640,640,0.090024,0.426037
+fachada_12.jpg,owlv2,manual_review,0.392852,Open-vocabulary cue detection; verify the target frontage,a closed rolling metal shutter at a storefront,0.392852,640,640,0.106348,0.000000
+fachada_13.jpg,owlv2,review_recommended,0.415917,Open-vocabulary cue detection; verify the target frontage,a small storefront in a city street,0.415917,640,640,0.494531,0.571041

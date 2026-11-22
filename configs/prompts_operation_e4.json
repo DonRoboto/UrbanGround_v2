@@ -1,0 +1,16 @@
+{
+  "active": [
+    "En el frente de planta baja hay un acceso abierto hacia un negocio, con mercancías o un mostrador accesibles para atender, aunque no aparezcan clientes.",
+    "Se observa un pequeño puesto instalado en la banqueta, con productos o alimentos colocados para ofrecerlos al público, incluso sin letrero formal.",
+    "La planta baja contiene un establecimiento de comida con entrada abierta, mesas preparadas o productos disponibles para vender.",
+    "Un taller o negocio de servicios tiene acceso abierto y herramientas o artículos preparados para atender al público, aunque no se vea una transacción.",
+    "En la entrada de una vivienda se ofrecen artículos o servicios mediante un mostrador, anaqueles o mercancías expuestas y accesibles desde la calle."
+  ],
+  "unverifiable": [
+    "Se identifica un establecimiento por su letrero, pero la cortina metálica del acceso principal está bajada y no permite verificar atención.",
+    "Hay señales de un negocio en planta baja, pero una lona o cubierta opaca tapa el acceso y no deja observar si está operando.",
+    "Se distingue publicidad de venta o servicios, pero en la fotografía no se aprecia un mostrador accesible, una entrada abierta ni mercancía disponible al público.",
+    "Se reconoce un establecimiento comercial por su fachada, pero su puerta, ventanilla o entrada está cerrada u oculta y no permite observar la operación.",
+    "La imagen muestra indicios de comercio, pero no contiene evidencia visual suficiente para decidir si el establecimiento está atendiendo en ese momento."
+  ]
+}

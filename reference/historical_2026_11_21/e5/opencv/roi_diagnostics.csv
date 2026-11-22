@@ -1,0 +1,14 @@
+file,method,review,score,detail,detector_query,detector_score,width,height,area_ratio,iou_vs_manual
+fachada_01.jpg,opencv,manual_review,0.101589,CV edges+vertical structure; score_gap=0.0018; target prior=0.50,,,640,640,0.406421,0.387337
+fachada_02.jpg,opencv,review_recommended,0.114699,CV edges+vertical structure; score_gap=0.0111; target prior=0.50,,,640,640,0.135796,0.418457
+fachada_03.jpg,opencv,manual_review,0.141984,CV edges+vertical structure; score_gap=0.0173; target prior=0.50,,,640,640,0.161567,0.132935
+fachada_04.jpg,opencv,manual_review,0.170825,CV edges+vertical structure; score_gap=0.0058; target prior=0.50,,,640,640,0.267578,0.327582
+fachada_05.jpg,opencv,manual_review,0.156629,CV edges+vertical structure; score_gap=0.0158; target prior=0.50,,,640,640,0.110520,0.263861
+fachada_06.jpg,opencv,manual_review,0.160805,CV edges+vertical structure; score_gap=0.0001; target prior=0.50,,,640,640,0.091863,0.000000
+fachada_07.jpg,opencv,review_recommended,0.172438,CV edges+vertical structure; score_gap=0.0097; target prior=0.50,,,640,640,0.103582,0.532697
+fachada_08.jpg,opencv,manual_review,0.171867,CV edges+vertical structure; score_gap=0.0161; target prior=0.50,,,640,640,0.133813,0.132537
+fachada_09.jpg,opencv,manual_review,0.193836,CV edges+vertical structure; score_gap=0.0182; target prior=0.50,,,640,640,0.141248,0.189524
+fachada_10.jpg,opencv,review_recommended,0.186111,CV edges+vertical structure; score_gap=0.0194; target prior=0.50,,,640,640,0.186582,0.309916
+fachada_11.jpg,opencv,manual_review,0.159978,CV edges+vertical structure; score_gap=0.0336; target prior=0.50,,,640,640,0.100608,0.271265
+fachada_12.jpg,opencv,review_recommended,0.150440,CV edges+vertical structure; score_gap=0.0187; target prior=0.50,,,640,640,0.155620,0.595086
+fachada_13.jpg,opencv,manual_review,0.158965,CV edges+vertical structure; score_gap=0.0243; target prior=0.50,,,640,640,0.123406,0.140042

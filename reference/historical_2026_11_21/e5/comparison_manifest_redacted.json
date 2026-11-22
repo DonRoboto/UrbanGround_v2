@@ -1,0 +1,98 @@
+{
+  "timestamp_utc": "2026-11-21T18:10:45.695514+00:00",
+  "partial_smoke_test": false,
+  "n_images": 13,
+  "checkpoint_commit": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+  "mean_roi_iou": {
+    "opencv": 0.2847108176923077,
+    "owlv2": 0.3599843
+  },
+  "results": [
+    {
+      "method": "manual",
+      "prompt_bank": "generic",
+      "region": "roi",
+      "n": 13,
+      "correct": 10,
+      "accuracy": 0.7692307692307693,
+      "macro_f1": 0.7043650793650794,
+      "recall_A": 1.0,
+      "recall_I": 0.4,
+      "recall_N": 1.0
+    },
+    {
+      "method": "opencv",
+      "prompt_bank": "generic",
+      "region": "roi",
+      "n": 13,
+      "correct": 7,
+      "accuracy": 0.5384615384615384,
+      "macro_f1": 0.37777777777777777,
+      "recall_A": 0.8571428571428571,
+      "recall_I": 0.2,
+      "recall_N": 0.0
+    },
+    {
+      "method": "owlv2",
+      "prompt_bank": "generic",
+      "region": "roi",
+      "n": 13,
+      "correct": 9,
+      "accuracy": 0.6923076923076923,
+      "macro_f1": 0.6095238095238096,
+      "recall_A": 0.8571428571428571,
+      "recall_I": 0.4,
+      "recall_N": 1.0
+    },
+    {
+      "method": "manual",
+      "prompt_bank": "contextual",
+      "region": "roi",
+      "n": 13,
+      "correct": 8,
+      "accuracy": 0.6153846153846154,
+      "macro_f1": 0.6273504273504273,
+      "recall_A": 0.42857142857142855,
+      "recall_I": 0.8,
+      "recall_N": 1.0
+    },
+    {
+      "method": "opencv",
+      "prompt_bank": "contextual",
+      "region": "roi",
+      "n": 13,
+      "correct": 8,
+      "accuracy": 0.6153846153846154,
+      "macro_f1": 0.5555555555555555,
+      "recall_A": 0.7142857142857143,
+      "recall_I": 0.4,
+      "recall_N": 1.0
+    },
+    {
+      "method": "owlv2",
+      "prompt_bank": "contextual",
+      "region": "roi",
+      "n": 13,
+      "correct": 7,
+      "accuracy": 0.5384615384615384,
+      "macro_f1": 0.5151515151515151,
+      "recall_A": 0.42857142857142855,
+      "recall_I": 0.6,
+      "recall_N": 1.0
+    }
+  ],
+  "warnings": [],
+  "inputs": {
+    "roi_sha256": {
+      "manual": "73fa3bd18a8dcbc7be7ed689a44e36e39a22c753a67f297e56d042deb449853e",
+      "opencv": "52543c7619aee746a1cf6e4383167583c4c7f7799cee3c79d4962d9deb9323c5",
+      "owlv2": "fa7f25a70a569284886e9bf6e52b5fb325edc61f5b04e840c70f539c5091fa4d"
+    },
+    "annotation_sha256": "c9edd7db04c396bc53bb9cc53f9770d7610cb5bf8e58f56e1f7658ccf47cd2b8",
+    "runs": {
+      "manual": "<local-run>/manual",
+      "opencv": "<local-run>/opencv",
+      "owlv2": "<local-run>/owlv2"
+    }
+  }
+}
