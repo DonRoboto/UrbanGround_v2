@@ -1,4 +1,4 @@
-# reproducir todos los experimentos y verificar los resultados
+# Reproducir todos los experimentos y verificar los resultados
 
 **Inicio rápido:** este repositorio contiene un lanzador que ejecuta E0–E5 sobre las 13 fotografías originales, compara cada predicción con los resultados archivados y entrega un informe de concordancia. 
 
