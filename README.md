@@ -11,7 +11,7 @@ CONFIG=configs/experiment_pinned.yaml ROI_SOURCE=regenerate DEVICE=auto \
 bash scripts/reproducir_todos_los_experimentos.sh runs/revisor_01
 ```
 
-**Resultado principal para comprobar las cifras:** `runs/revisor_01/VERIFICATION/reproduction_report.md`. Los fallos se documentan en `VERIFICATION/differences.csv` y hacen fallar el comando. **Sin los 13 originales exactos en `data/images/` no puede realizarse la reproducción completa**. Los archivos pueden necesitar una entrega privada autorizada.
+**Resultado principal para comprobar las cifras:** `runs/revisor_01/VERIFICATION/reproduction_report.md`. Los fallos se documentan en `VERIFICATION/differences.csv` y hacen fallar el comando. 
 
 **Guía detallada:** [`docs/REVIEWER_REPRODUCCION_INTEGRAL.md`](docs/REVIEWER_REPRODUCCION_INTEGRAL.md). Para separar diferencias en detección de ROI de diferencias de SigLIP 2, utilizar `ROI_SOURCE=historical`; este segundo modo no regenera las ROI.
 
